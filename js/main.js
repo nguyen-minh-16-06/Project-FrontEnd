@@ -104,7 +104,6 @@ window.addEventListener('scroll', function () {
     }
 });
 
-
 // Hiện nút lên đầu trang khi kéo xuống quá 50px
 window.addEventListener('scroll', function () {
     const goTopButton = document.querySelector('.go-top-btn');
