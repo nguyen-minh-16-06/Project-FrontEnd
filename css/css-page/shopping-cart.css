@@ -1,0 +1,117 @@
+/* =================================================================================== */
+/* Đức Hiếu */
+/* shopping cart */
+.top-header-shoppingcart {
+  width: 100%;
+  height: 90px;
+  transition: height 0.3s ease;
+  background-color: #fff;
+  z-index: 9;
+}
+
+.pagetitle-shoppingcart {
+  background-color: #000000;
+  background-image: url(../img/accessories-page-titleshoppingcart.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 60px 0px;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.checkout-steps {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.checkout-steps li {
+  color: #fff;
+  position: relative;
+}
+
+.checkout-steps li.Step1-shoppingcart a,
+.checkout-steps li.Step2-shoppingcart a {
+  color: #fff; /* Set text color to white */
+  text-decoration: none;
+}
+
+.checkout-steps li.Step1-shoppingcart,
+.checkout-steps li.Step2-shoppingcart {
+  color: #fff; /* Set text color to white */
+}
+
+.checkout-steps li.Step1-shoppingcart::after,
+.checkout-steps li.Step2-shoppingcart::after {
+  content: "→";
+  position: absolute;
+  left: 5px;
+  color: #fff; /* Keep the arrow color dark */
+}
+
+.checkout-steps li.Step3-shoppingcart {
+  color: #fff;
+}
+
+.checkout-steps {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #fff;
+  gap: 10px 15px;
+  font-family: "hkgroteskpro", Arial, Helvetica, sans-serif;
+}
+
+.emtycarticon-shoppingcart {
+  text-align: center;
+  padding: 150px 0px;
+}
+
+.emtycarticon-shoppingcart i {
+  margin-bottom: 20px;
+  display: block;
+  color: #707070;
+  font-size: 180px;
+  font-weight: 400px;
+}
+
+.emtycarticon-shoppingcart p {
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #242424;
+}
+
+.emtycarttext-shoppingcart {
+  font-size: 15px;
+  color: #707070;
+}
+
+.trolai-wrapper {
+  margin-top: 25px;
+}
+
+.trolai-shoppingcart {
+  display: inline-block;
+  background-color: #2e6bc6;
+  color: #fff;
+  padding: 10px 28px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  font-weight: 550;
+}
+
+.trolai-shoppingcart:hover {
+  background-color: #0056b3;
+}
