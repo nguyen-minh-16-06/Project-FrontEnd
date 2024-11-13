@@ -186,7 +186,7 @@ ul {
   padding: 2px 5px;
 }
 
-.hd-wrap .hd-menu .left-menu .menu-item:hover > .sub-menu {
+.hd-wrap .hd-menu .left-menu .menu-item:hover>.sub-menu {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
@@ -251,8 +251,10 @@ ul {
   flex-direction: column;
   width: 88px;
   gap: 20px;
-  position: absolute; /* Đặt vị trí tuyệt đối */
-  left: 0; /* Đưa sát về bên trái */
+  position: absolute;
+  /* Đặt vị trí tuyệt đối */
+  left: 0;
+  /* Đưa sát về bên trái */
   top: 40%;
   transform: translateY(-50%);
 }
@@ -332,7 +334,8 @@ ul {
 .product-actions {
   display: flex;
   align-items: center;
-  gap: 10px; /* Khoảng cách giữa các phần tử */
+  gap: 10px;
+  /* Khoảng cách giữa các phần tử */
 }
 
 .maytinh {
@@ -410,7 +413,8 @@ ul {
 }
 
 .share-media i:last-child {
-  margin-right: 0; /* Loại bỏ khoảng cách cho thẻ <i> cuối cùng */
+  margin-right: 0;
+  /* Loại bỏ khoảng cách cho thẻ <i> cuối cùng */
 }
 
 .stock-info {
@@ -685,7 +689,8 @@ ul {
 }
 
 #myVideo {
-  display: none; /* Ẩn video ban đầu */
+  display: none;
+  /* Ẩn video ban đầu */
 }
 
 .thumbnail {
@@ -864,7 +869,8 @@ textarea {
 }
 
 .rating .fa-star.active {
-  color: #ffc107; /* Yellow color for active stars */
+  color: #ffc107;
+  /* Yellow color for active stars */
 }
 
 /* =================================================================================== */
@@ -997,6 +1003,7 @@ textarea {
   align-items: center;
   justify-content: center;
 }
+
 /* End related product copy tu Min qua */
 
 /* =================================================================================== */
@@ -1112,6 +1119,7 @@ textarea {
   align-items: center;
   justify-content: center;
 }
+
 /* End Frequently Bought Togethercopy tu Min qua */
 
 /* =================================================================================== */

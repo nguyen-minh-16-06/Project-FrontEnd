@@ -13,7 +13,8 @@ ul {
 }
 
 :root {
-  --color-light: #fff;
+  --color-light: #ffffff;
+  --color-black: #333333;
 }
 
 /* =================================================================================== */
@@ -44,7 +45,7 @@ ul {
 
 .list-item.scrolled {
   height: 60px;
-  background-color: #ffffff;
+  background-color: var(--color-light);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
   transform: translateY(0);
   opacity: 1;
@@ -75,7 +76,7 @@ ul {
 
 .list-item .hd-menu .menu-link {
   display: block;
-  color: #333333;
+  color: var(--color-black);
   font-size: 13.5px;
   padding: 0 1px;
   font-weight: 500;
@@ -113,7 +114,7 @@ ul {
 
 .list-item .right-menu .count {
   position: absolute;
-  color: #fff;
+  color: var(--color-light);
   width: 17px;
   font-size: 10.5px;
   top: -4px;
@@ -129,7 +130,7 @@ ul {
 }
 
 .list-item .right-menu .menu-price {
-  color: #333333;
+  color: var(--color-black);
   font-size: 15px;
   font-weight: 500;
   padding: 0px 0px 0px 12px;
@@ -160,7 +161,7 @@ ul {
 }
 
 .list-item .hd-menu .menu-item .sub-menu li {
-  background-color: #ffffff;
+  background-color: var(--color-light);
   padding: 5px 10px;
   margin: 15px -0.5rem;
   border-radius: 10px;
@@ -248,7 +249,7 @@ ul {
 }
 
 .slider .header-content .SHOP {
-  color: #ffffff;
+  color: var(--color-light);
   font-weight: 700;
   margin-right: 13px;
   background-color: #2e6bc6;
@@ -257,7 +258,7 @@ ul {
 }
 
 .slider .header-content .READ {
-  color: #333333;
+  color: var(--color-black);
   font-weight: 700;
   background-color: #f3f3f3;
   border: 12px solid #f3f3f3;
@@ -324,13 +325,13 @@ ul {
 }
 
 .buttons .btn:hover {
-  border: 2px solid #333333;
+  border: 2px solid var(--color-black);
   transition: 0.3s;
 }
 
 .hd-slider .buttons .btn.active {
-  background-color: #333333;
-  border: 2px solid #333333;
+  background-color: var(--color-black);
+  border: 2px solid var(--color-black);
   transition: 0.5s;
 }
 
@@ -369,7 +370,7 @@ ul {
 }
 
 .categories .category-name {
-  color: #333333;
+  color: var(--color-black);
   margin: 0;
   font-size: 18px;
 }
@@ -440,7 +441,7 @@ ul {
 }
 
 .arrivals ul a:hover {
-  color: #333333;
+  color: var(--color-black);
   transition: 0.3s;
 }
 
@@ -542,7 +543,7 @@ ul {
 }
 
 .product-item .product-info .product-category a:hover {
-  color: #333333;
+  color: var(--color-black);
 }
 
 .product-item .product-info .product-price {
@@ -675,7 +676,7 @@ ul {
 }
 
 .button-nav-row-first .button-left {
-  color: #fff;
+  color: var(--color-light);
   height: 42px;
   padding: 12.5px 21px;
   font-size: 12.5px;
@@ -691,7 +692,7 @@ ul {
 }
 
 .button-nav-row-first .button-right {
-  color: #333;
+  color: var(--color-black);
   height: 42px;
   padding: 10px 24px;
   font-size: 12.5px;
@@ -713,7 +714,7 @@ ul {
 }
 
 .button-nav-row-two .button-left {
-  color: #333;
+  color: var(--color-black);
   height: 42px;
   padding: 11px 22px;
   font-size: 12.5px;
@@ -731,7 +732,7 @@ ul {
 }
 
 .button-nav-row-two .button-right {
-  color: #fff;
+  color: var(--color-light);
   height: 42px;
   padding: 12.5px 21px;
   font-size: 12.5px;
@@ -807,7 +808,7 @@ ul {
 .label .hot {
   display: flex;
   background-color: #E22D2D;
-  color: #ffffff;
+  color: var(--color-light);
   font-size: 15px;
   font-weight: 600;
   padding: 11px 8.5px;
@@ -820,7 +821,7 @@ ul {
 .label .new {
   display: flex;
   background-color: #438E44;
-  color: #ffffff;
+  color: var(--color-light);
   font-size: 15px;
   font-weight: 600;
   padding: 12px 7.5px;
@@ -879,7 +880,7 @@ ul {
 }
 
 .pop-product .pop-product-info .pop-product-category a:hover {
-  color: #333333;
+  color: var(--color-black);
 }
 
 .pop-product .pop-product-info .pop-product-price {
