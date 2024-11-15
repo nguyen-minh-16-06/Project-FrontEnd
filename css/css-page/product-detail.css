@@ -16,6 +16,7 @@ ul {
 :root {
   --color-light: #ffffff;
   --color-black: #333333;
+  --color-blue: #2E6BC6;
   --title-color: #242424;
 }
 
@@ -284,7 +285,7 @@ ul {
 
 .sell-price {
   font-size: 28px;
-  color: #2e6bc6;
+  color: var(--color-blue);
   font-weight: 600;
   font-family: "Jost-wd", Arial, Helvetica, sans-serif;
 }
@@ -558,7 +559,7 @@ ul {
 }
 
 .add-to-cart {
-  background: #2e6bc6;
+  background: var(--color-blue);
   color: white;
   border: none;
   padding: 12px 24px;
@@ -645,7 +646,7 @@ ul {
 }
 
 .review {
-  background: #2e6bc6;
+  background: var(--color-blue);
   color: white;
   border: none;
   padding: 5px 20px;
@@ -815,10 +816,10 @@ textarea {
 .form-submit input {
   border-radius: 5px;
   color: #fff;
-  background-color: #2e6bc6;
+  background-color: var(--color-blue);
   padding: 5px 20px;
-  border: 2px solid #2e6bc6;
-  border: 2px solid #2e6bc6;
+  border: 2px solid var(--color-blue);
+  border: 2px solid var(--color-blue);
   transition: all 0.25s ease;
 }
 
@@ -974,7 +975,7 @@ textarea {
 }
 
 .product-item .product-info .product-price {
-  color: #2e6bc6;
+  color: var(--color-blue);
   font-size: 14px;
   font-weight: 500;
 }
@@ -1022,16 +1023,16 @@ textarea {
   position: relative;
 }
 
-.label {
+.label-product {
   position: absolute;
   top: 10px;
   left: 10px;
 }
 
-.label .hot {
+.label-product .hot {
   display: flex;
   background-color: #e22d2d;
-  color: #ffffff;
+  color: var(--color-light);
   font-size: 15px;
   font-weight: 600;
   padding: 11px 8.5px;
@@ -1041,10 +1042,23 @@ textarea {
   align-items: center;
 }
 
-.label .new {
+.label-product .new {
   display: flex;
   background-color: #438e44;
-  color: #ffffff;
+  color: var(--color-light);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 7.5px;
+  text-transform: uppercase;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.label-product .sale {
+  display: flex;
+  background-color: var(--color-blue);
+  color: var(--color-light);
   font-size: 15px;
   font-weight: 600;
   padding: 12px 7.5px;
@@ -1107,7 +1121,7 @@ textarea {
 }
 
 .pop-product .pop-product-info .pop-product-price {
-  color: #2e6bc6;
+  color: var(--color-blue);
   font-size: 14px;
   font-weight: 500;
 }
