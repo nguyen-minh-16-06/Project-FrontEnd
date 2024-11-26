@@ -1,1129 +1,1584 @@
 <!DOCTYPE html>
 <html lang="vi">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/all.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Woodmart</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Begin header -->
     <header class="header">
-        <div class="top-header">
-            <div class="list-item">
-                <div class="hd-logo">
-                    <a href="./index.html"><img src="./img/wood-logo-dark.svg" alt="woodmart-hd-logo"
-                            style="max-width: 180px;"></a>
+      <div class="top-header">
+        <div class="list-item">
+          <div class="hd-logo">
+            <a href="./index.html"
+              ><img
+                src="./img/wood-logo-dark.svg"
+                alt="woodmart-hd-logo"
+                style="max-width: 180px"
+            /></a>
+          </div>
+          <div class="hd-menu">
+            <ul class="menu left-menu">
+              <li class="menu-item">
+                <a href="./page/cases.html" class="menu-link"
+                  >Cases <i class="fa-duotone fa-solid fa-angle-down"></i
+                ></a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="" class="nav-product">IPhone 13</a>
+                    <a href="" class="nav-product">IPhone 12 pro</a>
+                    <a href="" class="nav-product">IPhone 12</a>
+                    <a href="" class="nav-product">IPhone 11 pro</a>
+                    <a href="" class="nav-product">IPhone 11</a>
+                    <a href="" class="nav-product">IPhone SE</a>
+                    <a href="" class="nav-product">IPhone XR</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="./page/straps.html" class="menu-link"
+                  >Straps <i class="fa-duotone fa-solid fa-angle-down"></i
+                ></a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="" class="nav-product">Canvas</a>
+                    <a href="" class="nav-product">Leather</a>
+                    <a href="" class="nav-product">Limited series</a>
+                    <a href="" class="nav-product">Metal</a>
+                    <a href="" class="nav-product">Silicone</a>
+                    <a href="" class="nav-product">Sport</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="./page/power-banks.html" class="menu-link"
+                  >Power Banks <i class="fa-duotone fa-solid fa-angle-down"></i
+                ></a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="" class="nav-product">Battery case</a>
+                    <a href="" class="nav-product">Powerful</a>
+                    <a href="" class="nav-product">Wireless</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="./page/cables.html" class="menu-link"
+                  >Cables <i class="fa-duotone fa-solid fa-angle-down"></i
+                ></a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="./page/lightning.html" class="nav-product"
+                      >Lightning</a
+                    >
+                    <a href="" class="nav-product">Universal</a>
+                    <a href="" class="nav-product">USB-C</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="./page/magsafe.html" class="menu-link"
+                  >MagSafe <i class="fa-duotone fa-solid fa-angle-down"></i
+                ></a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="" class="nav-product">MagSafe Battery</a>
+                    <a href="" class="nav-product">Wallet</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="./page/charger.html" class="menu-link"
+                  >Charger <i class="fa-duotone fa-solid fa-angle-down"></i
+                ></a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="" class="nav-product">Charging pads</a>
+                    <a href="" class="nav-product">Stands & docks</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link"
+                  >More <i class="fa-duotone fa-solid fa-angle-down"></i
+                ></a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="" class="nav-product">Shop</a>
+                    <a href="" class="nav-product">Blog</a>
+                    <a href="" class="nav-product">About Us</a>
+                    <a href="" class="nav-product">Contact Us</a>
+                    <a href="" class="nav-product">Privacy Policy</a>
+                    <a href="" class="nav-product">Shipping</a>
+                    <a href="" class="nav-product">Track Order</a>
+                    <a href="" class="nav-product">FAQs</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="menu right-menu">
+              <li class="menu-item">
+                <a href="./page/login.html" class="menu-link"
+                  >Login / Register</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="./page/search.html" class="menu-link"
+                  ><i id="icon" class="fa-solid fa-magnifying-glass"></i
+                ></a>
+              </li>
+              <li class="menu-item">
+                <a href="" class="menu-link"
+                  ><i id="icon" class="fa-solid fa-shuffle"></i
+                  ><span class="count">0</span></a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="" class="menu-link"
+                  ><i id="icon" class="fa-regular fa-heart"></i
+                  ><span class="count">0</span></a
+                >
+              </li>
+              <li class="menu-item">
+                <div class="shopping-cart">
+                  <a href="./page/shopping-cart.html" class="menu-link"
+                    ><i id="icon" class="fa-solid fa-cart-shopping"></i
+                    ><span class="count">0</span></a
+                  >
+                  <a href="/page/shopping-cart.html">
+                    <div class="menu-price"><span>$</span>0.00</div>
+                  </a>
                 </div>
-                <div class="hd-menu">
-                    <ul class="menu left-menu">
-                        <li class="menu-item"><a href="./page/cases.html" class="menu-link">Cases
-                                <i class="fa-duotone fa-solid fa-angle-down"></i></a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="" class="nav-product">IPhone 13</a>
-                                    <a href="" class="nav-product">IPhone 12 pro</a>
-                                    <a href="" class="nav-product">IPhone 12</a>
-                                    <a href="" class="nav-product">IPhone 11 pro</a>
-                                    <a href="" class="nav-product">IPhone 11</a>
-                                    <a href="" class="nav-product">IPhone SE</a>
-                                    <a href="" class="nav-product">IPhone XR</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu-item"><a href="./page/straps.html" class="menu-link">Straps <i
-                                    class="fa-duotone fa-solid fa-angle-down"></i></a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="" class="nav-product">Canvas</a>
-                                    <a href="" class="nav-product">Leather</a>
-                                    <a href="" class="nav-product">Limited series</a>
-                                    <a href="" class="nav-product">Metal</a>
-                                    <a href="" class="nav-product">Silicone</a>
-                                    <a href="" class="nav-product">Sport</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu-item"><a href="./page/power-banks.html" class="menu-link">Power Banks <i
-                                    class="fa-duotone fa-solid fa-angle-down"></i></a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="" class="nav-product">Battery case</a>
-                                    <a href="" class="nav-product">Powerful</a>
-                                    <a href="" class="nav-product">Wireless</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu-item"><a href="./page/cables.html" class="menu-link">Cables <i
-                                    class="fa-duotone fa-solid fa-angle-down"></i></a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="./page/lightning.html" class="nav-product">Lightning</a>
-                                    <a href="" class="nav-product">Universal</a>
-                                    <a href="" class="nav-product">USB-C</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu-item"><a href="./page/magsafe.html" class="menu-link">MagSafe <i
-                                    class="fa-duotone fa-solid fa-angle-down"></i></a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="" class="nav-product">MagSafe Battery</a>
-                                    <a href="" class="nav-product">Wallet</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu-item"><a href="./page/charger.html" class="menu-link">Charger <i
-                                    class="fa-duotone fa-solid fa-angle-down"></i></a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="" class="nav-product">Charging pads</a>
-                                    <a href="" class="nav-product">Stands & docks</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu-item"><a href="#" class="menu-link">More <i
-                                    class="fa-duotone fa-solid fa-angle-down"></i></a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="" class="nav-product">Shop</a>
-                                    <a href="" class="nav-product">Blog</a>
-                                    <a href="" class="nav-product">About Us</a>
-                                    <a href="" class="nav-product">Contact Us</a>
-                                    <a href="" class="nav-product">Privacy Policy</a>
-                                    <a href="" class="nav-product">Shipping</a>
-                                    <a href="" class="nav-product">Track Order</a>
-                                    <a href="" class="nav-product">FAQs</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="menu right-menu">
-                        <li class="menu-item"><a href="./page/login.html" class="menu-link">Login / Register</a></li>
-                        <li class="menu-item"><a href="./page/search.html" class="menu-link"><i id="icon"
-                                    class="fa-solid fa-magnifying-glass"></i></a></li>
-                        <li class="menu-item"><a href="" class="menu-link"><i id="icon"
-                                    class="fa-solid fa-shuffle"></i><span class="count">0</span></a></li>
-                        <li class="menu-item"><a href="" class="menu-link"><i id="icon"
-                                    class="fa-regular fa-heart"></i><span class="count">0</span></a></li>
-                        <li class="menu-item">
-                            <div class="shopping-cart">
-                                <a href="" class="menu-link"><i id="icon" class="fa-solid fa-cart-shopping"></i><span
-                                        class="count">0</span></a>
-                                <a href="">
-                                    <div class="menu-price"><span>$</span>0.00</div>
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="bottom-header" style="cursor: grab;">
-            <div class="hd-slider">
-                <div class="slider">
-                    <div class="slide active">
-                        <img id="slide-1" src="./img/pic1.png" alt="pic1">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-1">
-                                    <div class="header-content">
-                                        <h4>Charge Your<br>Phone Safely!</h4>
-                                        <p>A wonderful Serenity has possession of my entire soul, like these<br>sweel
-                                            mornings of
-                                            spring which I enjoy with my whole heart.</p>
-                                        <a href="#" class="SHOP">TO SHOP</a>
-                                        <a href="#" class="READ">READ MORE</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+      </div>
+      <div class="bottom-header" style="cursor: grab">
+        <div class="hd-slider">
+          <div class="slider">
+            <div class="slide active">
+              <img id="slide-1" src="./img/pic1.png" alt="pic1" />
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-1">
+                    <div class="header-content">
+                      <h4>Charge Your<br />Phone Safely!</h4>
+                      <p>
+                        A wonderful Serenity has possession of my entire soul,
+                        like these<br />sweel mornings of spring which I enjoy
+                        with my whole heart.
+                      </p>
+                      <a href="#" class="SHOP">TO SHOP</a>
+                      <a href="#" class="READ">READ MORE</a>
                     </div>
-                    <div class="slide">
-                        <img id="slide-2" src="./img/pic2.png" alt="pic1">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-1">
-                                    <div class="header-content">
-                                        <h4>For Everything<br>and Everyone</h4>
-                                        <p>Even if your less into design and more into content strategy you may<br>find
-                                            some
-                                            redeeming value with, wait for it, dummy coppy</p>
-                                        <a href="#" class="SHOP">TO SHOP</a>
-                                        <a href="#" class="READ">READ MORE</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <img id="slide-3" src="./img/pic3.png" alt="pic1">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-1">
-                                    <div class="header-content">
-                                        <h4>Featured<br>Accessories</h4>
-                                        <p>A client that's unhappy for a reason is a problem, a client that's<br>unhappy
-                                            though
-                                            required he or her can't quite put a finger.</p>
-                                        <a href="#" class="SHOP">TO SHOP</a>
-                                        <a href="#" class="READ">READ MORE</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  </div>
                 </div>
-                <div class="slide-navigation">
-                    <i class="fa-solid fa-chevron-left"></i>
-                    <i class="fa-solid fa-chevron-right"></i>
-                </div>
-                <div class="buttons">
-                    <div class="btn active"></div>
-                    <div class="btn"></div>
-                    <div class="btn"></div>
-                </div>
+              </div>
             </div>
+            <div class="slide">
+              <img id="slide-2" src="./img/pic2.png" alt="pic1" />
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-1">
+                    <div class="header-content">
+                      <h4>For Everything<br />and Everyone</h4>
+                      <p>
+                        Even if your less into design and more into content
+                        strategy you may<br />find some redeeming value with,
+                        wait for it, dummy coppy
+                      </p>
+                      <a href="#" class="SHOP">TO SHOP</a>
+                      <a href="#" class="READ">READ MORE</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <img id="slide-3" src="./img/pic3.png" alt="pic1" />
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-1">
+                    <div class="header-content">
+                      <h4>Featured<br />Accessories</h4>
+                      <p>
+                        A client that's unhappy for a reason is a problem, a
+                        client that's<br />unhappy though required he or her
+                        can't quite put a finger.
+                      </p>
+                      <a href="#" class="SHOP">TO SHOP</a>
+                      <a href="#" class="READ">READ MORE</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide-navigation">
+            <i class="fa-solid fa-chevron-left"></i>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="buttons">
+            <div class="btn active"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+          </div>
         </div>
+      </div>
     </header>
     <!-- End header -->
     <!-- Begin wrapper -->
     <div class="wrapper">
-        <!-- Begin category -->
-        <section class="category">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2">
-                        <div class="categories">
-                            <div class="category-item">
-                                <a href="./page/cases.html">
-                                    <img src="./img/category-1.jpg.webp" alt="" class="category-img">
-                                </a>
-                            </div>
-                            <div class="category-content">
-                                <a href="./page/cases.html">
-                                    <h3 class="category-name">Cases</h3>
-                                    <span class="category-quantity">51 product</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="categories">
-                            <div class="category-item">
-                                <a href="./page/magsafe.html">
-                                    <img src="./img/category-2.jpg.webp" alt="" class="category-img">
-                                </a>
-                            </div>
-                            <div class="category-content">
-                                <a href="./page/magsafe.html">
-                                    <h3 class="category-name">MagSafe</h3>
-                                    <span class="category-quantity">15 product</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="categories">
-                            <div class="category-item">
-                                <a href="./page/cables.html">
-                                    <img src="./img/category-3.jpg.webp" alt="" class="category-img">
-                                </a>
-                            </div>
-                            <div class="category-content">
-                                <a href="./page/cables.html">
-                                    <h3 class="category-name">Cables</h3>
-                                    <span class="category-quantity">18 product</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="categories">
-                            <div class="category-item">
-                                <a href="./page/charger.html">
-                                    <img src="./img/category-4.jpg.webp" alt="" class="category-img">
-                                </a>
-                            </div>
-                            <div class="category-content">
-                                <a href="./page/charger.html">
-                                    <h3 class="category-name">Charger</h3>
-                                    <span class="category-quantity">12 product</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="categories">
-                            <div class="category-item">
-                                <a href="./page/straps.html">
-                                    <img src="./img/category-5.jpg.webp" alt="" class="category-img">
-                                </a>
-                            </div>
-                            <div class="category-content">
-                                <a href="./page/straps.html">
-                                    <h3 class="category-name">Straps</h3>
-                                    <span class="category-quantity">38 product</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="categories">
-                            <div class="category-item">
-                                <a href="./page/power-banks.html">
-                                    <img src="./img/category-6.jpg.webp" alt="" class="category-img">
-                                </a>
-                            </div>
-                            <div class="category-content">
-                                <a href="./page/power-banks.html">
-                                    <h3 class="category-name">Power Banks</h3>
-                                    <span class="category-quantity">18 product</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+      <!-- Begin category -->
+      <section class="category">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="categories">
+                <div class="category-item">
+                  <a href="./page/cases.html">
+                    <img
+                      src="./img/category-1.jpg.webp"
+                      alt=""
+                      class="category-img"
+                    />
+                  </a>
                 </div>
+                <div class="category-content">
+                  <a href="./page/cases.html">
+                    <h3 class="category-name">Cases</h3>
+                    <span class="category-quantity">51 product</span>
+                  </a>
+                </div>
+              </div>
             </div>
-        </section>
-        <!-- End-category -->
-        <!-- Begin new-product -->
-        <section class="new-product">
-            <div class="container">
-                <div class="row">
-                    <div class="arrivals">
-                        <div class="sub-title">Hurry up to buy</div>
-                        <h4 class="title-container">New Arrivals</h4>
-                        <div class="sub_title-after-sub_title">How can you evaluate content without design</div>
-                        <ul>
-                            <li><a href="">Cases</a></li>
-                            <li><a href="">Straps</a></li>
-                            <li><a href="">Magsafe</a></li>
-                        </ul>
-                    </div>
+            <div class="col-md-2">
+              <div class="categories">
+                <div class="category-item">
+                  <a href="./page/magsafe.html">
+                    <img
+                      src="./img/category-2.jpg.webp"
+                      alt=""
+                      class="category-img"
+                    />
+                  </a>
                 </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="product-item">
-                            <div class="product-hover">
-                                <a href="./page/product-detail.html">
-                                    <img class="product-img" src="./img/iPhone-12-Pro-Moment-Case-Blue.jpg.webp"
-                                        alt="iPhone 12 Pro Moment Case-Blue">
-                                </a>
-                                <ul class="menu-hover">
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-shuffle"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-magnifying-glass"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-regular fa-heart"></i></a></li>
-                                </ul>
-                                <a href="">
-                                    <div class="btn-cart">Add to Cart</div>
-                                </a>
-                            </div>
-                            <div class="product-info">
-                                <h3 class="product-name">
-                                    <a href="">iPhone 12 Pro Moment Case – Blue</a>
-                                </h3>
-                                <span class="product-category">
-                                    <a href="">IPhone 12 pro</a>
-                                </span>
-                                <span class="product-price">$149.00</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="product-item">
-                            <div class="product-hover">
-                                <a href="">
-                                    <img class="product-img" src="./img/Full-Aquarelle-iPhone-XR.jpg.webp"
-                                        alt="Full Aquarelle iPhone XR">
-                                </a>
-                                <ul class="menu-hover">
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-shuffle"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-magnifying-glass"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-regular fa-heart"></i></a></li>
-                                </ul>
-                                <a href="">
-                                    <div class="btn-cart">Add to Cart</div>
-                                </a>
-                            </div>
-                            <div class="product-info">
-                                <h3 class="product-name">
-                                    <a href="">Full Aquarelle iPhone XR</a>
-                                </h3>
-                                <span class="product-category">
-                                    <a href="">IPhone XR</a>
-                                </span>
-                                <span class="product-price">$169.00</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="product-item">
-                            <div class="product-hover">
-                                <div class="label">
-                                    <a href="" class="hot">Hot</a>
-                                </div>
-                                <a href="">
-                                    <img class="product-img" src="./img/Leather-Case-iPhone-12-Deep-Violet.jpg.webp"
-                                        alt="Leather Case iPhone 12 Deep Violet">
-                                </a>
-                                <ul class="menu-hover">
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-shuffle"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-magnifying-glass"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-regular fa-heart"></i></a></li>
-                                </ul>
-                                <a href="">
-                                    <div class="btn-cart">Add to Cart</div>
-                                </a>
-                            </div>
-                            <div class="product-info">
-                                <h3 class="product-name">
-                                    <a href="">Leather Case iPhone 12 Deep Violet</a>
-                                </h3>
-                                <span class="product-category">
-                                    <a href="">IPhone 12</a>
-                                </span>
-                                <span class="product-price">$230.00</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="product-item">
-                            <div class="product-hover">
-                                <a href="">
-                                    <img class="product-img" src="./img/iPhone-13-Case-Luxe-Dusty-Pink.jpg.webp"
-                                        alt="iPhone 13 Case Luxe-Dusty Pink">
-                                </a>
-                                <ul class="menu-hover">
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-shuffle"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-magnifying-glass"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-regular fa-heart"></i></a></li>
-                                </ul>
-                                <a href="">
-                                    <div class="btn-cart">Add to Cart</div>
-                                </a>
-                            </div>
-                            <div class="product-info">
-                                <h3 class="product-name">
-                                    <a href="">iPhone 13 Case Luxe – Dusty Pink</a>
-                                </h3>
-                                <span class="product-category">
-                                    <a href="">IPhone 13</a>
-                                </span>
-                                <span class="product-price">$149.00</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="product-item">
-                            <div class="product-hover">
-                                <a href="">
-                                    <img class="product-img" src="./img/iPhone-13-Case-Max-Black.jpg.webp"
-                                        alt="iPhone 13 Case Max-Black">
-                                </a>
-                                <ul class="menu-hover">
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-shuffle"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-magnifying-glass"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-regular fa-heart"></i></a></li>
-                                </ul>
-                                <a href="">
-                                    <div class="btn-cart">Add to Cart</div>
-                                </a>
-                            </div>
-                            <div class="product-info">
-                                <h3 class="product-name">
-                                    <a href="">iPhone 13 Case Max – Black</a>
-                                </h3>
-                                <span class="product-category">
-                                    <a href="">IPhone 13</a>
-                                </span>
-                                <span class="product-price">$159.00</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="product-item">
-                            <div class="product-hover">
-                                <a href="">
-                                    <img class="product-img" src="./img/iPhone-13-Case-With-MagSafe-Red-Rose.jpg.webp"
-                                        alt="iPhone 13 Case With MagSafe-Red Rose">
-                                </a>
-                                <ul class="menu-hover">
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-shuffle"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-magnifying-glass"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-regular fa-heart"></i></a></li>
-                                </ul>
-                                <a href="">
-                                    <div class="btn-cart">Add to Cart</div>
-                                </a>
-                            </div>
-                            <div class="product-info">
-                                <h3 class="product-name">
-                                    <a href="">iPhone 13 Case With MagSafe – Red Rose</a>
-                                </h3>
-                                <span class="product-category">
-                                    <a href="">IPhone 13</a>
-                                </span>
-                                <span class="product-price">$199.00</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="product-item">
-                            <div class="product-hover">
-                                <a href="">
-                                    <img class="product-img" src="./img/Epik-Silicone-Case-Full-Lavender.jpg.webp"
-                                        alt="Epik Silicone Case Full-Lavender">
-                                </a>
-                                <ul class="menu-hover">
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-shuffle"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-magnifying-glass"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-regular fa-heart"></i></a></li>
-                                </ul>
-                                <a href="">
-                                    <div class="btn-cart">Add to Cart</div>
-                                </a>
-                            </div>
-                            <div class="product-info">
-                                <h3 class="product-name">
-                                    <a href="">Epik Silicone Case Full – Lavender</a>
-                                </h3>
-                                <span class="product-category">
-                                    <a href="">IPhone 12</a>
-                                </span>
-                                <span class="product-price">$99.00</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="product-item">
-                            <div class="product-hover">
-                                <a href="">
-                                    <img class="product-img" src="./img/iPhone-12-Pro-Max-Silicone-BlackWhite.jpg.webp"
-                                        alt="iPhone 12 Pro Max Silicone-Black/White">
-                                </a>
-                                <ul class="menu-hover">
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-shuffle"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-magnifying-glass"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-regular fa-heart"></i></a></li>
-                                </ul>
-                                <a href="">
-                                    <div class="btn-cart">Add to Cart</div>
-                                </a>
-                            </div>
-                            <div class="product-info">
-                                <h3 class="product-name">
-                                    <a href="">iPhone 12 Pro Max Silicone – Black/White</a>
-                                </h3>
-                                <span class="product-category">
-                                    <a href="">IPhone 12 pro</a>
-                                </span>
-                                <span class="product-price">$99.00</span>
-                            </div>
-                        </div>
-                    </div>
+                <div class="category-content">
+                  <a href="./page/magsafe.html">
+                    <h3 class="category-name">MagSafe</h3>
+                    <span class="category-quantity">15 product</span>
+                  </a>
                 </div>
+              </div>
             </div>
-        </section>
-        <!-- End new-product -->
-        <!-- Begin quality -->
-        <section class="quality">
-            <div class="container">
-                <div class="row">
-                    <div class="factors">
-                        <div class="provide-high-quality">
-                            <div class="sub-title">There are some redeeming factors</div>
-                            <h4 class="title-container">We Provide High Quality Goods</h4>
-                            <div class="sub_title-after-sub_title">A client that's unhappy for a reason is a problem, a
-                                client that's unhappy though he or her can't</div>
-                        </div>
-                    </div>
+            <div class="col-md-2">
+              <div class="categories">
+                <div class="category-item">
+                  <a href="./page/cables.html">
+                    <img
+                      src="./img/category-3.jpg.webp"
+                      alt=""
+                      class="category-img"
+                    />
+                  </a>
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="service-quality">
-                            <img class="service-icon" src="./img/infobox-1.svg" alt="service icon">
-                            <div class="service-content">
-                                <h4 class="service-title">Fast Delivery</h4>
-                                <div class="title-after-title">
-                                    <p style="color: #858585; font-size: 15px; font-weight: 450;">Chances are there
-                                        wasn't collaboration and checkpoints, there wasn't a process.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="service-quality">
-                            <img class="service-icon" src="./img/infobox-2.svg" alt="service icon">
-                            <div class="service-content">
-                                <h4 class="service-title">Best Quality</h4>
-                                <div class="title-after-title">
-                                    <p style="color: #858585; font-size: 15px; font-weight: 450;">It's content strategy
-                                        gone awry right from the start. Forswearing the use of Lorem Ipsum.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="service-quality">
-                            <img class="service-icon" src="./img/infobox-3.svg" alt="service icon">
-                            <div class="service-content">
-                                <h4 class="service-title">Free Return</h4>
-                                <div class="title-after-title">
-                                    <p style="color: #858585; font-size: 15px; font-weight: 450;">True enough, but
-                                        that's not all that it takes to get things back on track out there for a text.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="category-content">
+                  <a href="./page/cables.html">
+                    <h3 class="category-name">Cables</h3>
+                    <span class="category-quantity">18 product</span>
+                  </a>
                 </div>
-                <div class="row">
-                    <div class="col-md-5">
-                        <div class="banner">
-                            <div class="banner-img">
-                                <a href="./page/cases.html"><img src="./img/banner-quality-1.jpg.webp"
-                                        alt="Cases for Phone"></a>
-                            </div>
-                            <div class="banner-content">
-                                <a href="./page/cases.html">
-                                    <div class="banner-subtitle">Something completely new</div>
-                                    <h4 class="banner-title">Cases for Phone</h4>
-                                    <div class="button-nav-row-first">
-                                        <a href="./page/cases.html" class="button-left">To Shop</a>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-7">
-                        <div class="banner">
-                            <div class="banner-img">
-                                <a href="./page/straps.html"><img src="./img/banner-quality-2.jpg.webp"
-                                        alt="Straps of Any Color"></a>
-                            </div>
-                            <div class="banner-content">
-                                <a href="./page/straps.html">
-                                    <div class="banner-subtitle">Accessories for watch</div>
-                                    <h4 class="banner-title">Straps of Any Color</h4>
-                                    <div class="button-nav-row-first">
-                                        <a href="./page/straps.html" class="button-right">To Shop</a>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-7">
-                        <div class="banner">
-                            <div class="banner-img">
-                                <a href="./page/power-banks.html"><img src="./img/banner-quality-3.jpg.webp"
-                                        alt="Straps of Any Color"></a>
-                            </div>
-                            <div class="banner-content">
-                                <a href="./page/power-banks.html">
-                                    <div class="banner-subtitle">Special Offer</div>
-                                    <h4 class="banner-title">Buy One and Get 50%<br>Off the Second</h4>
-                                    <div class="button-nav-row-two">
-                                        <a href="./page/power-banks.html" class="button-left">Read more</a>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="banner">
-                            <div class="banner-img">
-                                <a href="./page/charger.html"><img src="./img/banner-quality-4.jpg.webp"
-                                        alt="Straps of Any Color"></a>
-                            </div>
-                            <div class="banner-content">
-                                <a href="./page/charger.html">
-                                    <div class="banner-subtitle">Try something completely</div>
-                                    <h4 class="banner-title">Charger Discount</h4>
-                                    <div class="button-nav-row-two">
-                                        <a href="./page/charger.html" class="button-right">Buy now</a>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
-        <!-- End quality -->
-        <!-- Begin propular-product -->
-        <section class="popular">
-            <div class="container">
-                <div class="row">
-                    <div class="popular-products">
-                        <div class="most-popular-products">
-                            <div class="sub-title">Learn how to get a discount</div>
-                            <h4 class="title-container">Most Popular Products</h4>
-                            <div class="sub_title-after-sub_title">Proponents of content strategy may shun of dummy copy
-                                designers</div>
-                        </div>
-                    </div>
+            <div class="col-md-2">
+              <div class="categories">
+                <div class="category-item">
+                  <a href="./page/charger.html">
+                    <img
+                      src="./img/category-4.jpg.webp"
+                      alt=""
+                      class="category-img"
+                    />
+                  </a>
                 </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="pop-product">
-                            <div class="pop-product-hover">
-                                <a href="">
-                                    <img class="product-img" src="./img/product.jpg" alt="iPhone Leather Wallet Black">
-                                </a>
-                                <ul class="menu-hover">
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-shuffle"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-magnifying-glass"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-regular fa-heart"></i></a></li>
-                                </ul>
-                                <a href="">
-                                    <div class="btn-cart">Add to Cart</div>
-                                </a>
-                            </div>
-                            <div class="pop-product-info">
-                                <h3 class="pop-product-name">
-                                    <a href="">iPhone Leather Wallet Black</a>
-                                </h3>
-                                <span class="pop-product-category">
-                                    <a href="">Wallet</a>
-                                </span>
-                                <span class="pop-product-price">$199.00</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="pop-product">
-                            <div class="pop-product-hover">
-                                <div class="label">
-                                    <a href="" class="hot">Hot</a>
-                                </div>
-                                <a href="">
-                                    <img class="product-img" src="./img/product-olive-strap.jpg"
-                                        alt="iPhone 12 Pro Moment Case-Blue">
-                                </a>
-                                <ul class="menu-hover">
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-shuffle"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-magnifying-glass"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-regular fa-heart"></i></a></li>
-                                </ul>
-                                <a href="">
-                                    <div class="btn-cart">Add to Cart</div>
-                                </a>
-                            </div>
-                            <div class="pop-product-info">
-                                <h3 class="pop-product-name">
-                                    <a href="">Everyday Leather Strap – Olive</a>
-                                </h3>
-                                <span class="pop-product-category">
-                                    <a href="">Silicone</a>
-                                </span>
-                                <span class="pop-product-price">$199.00</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="pop-product">
-                            <div class="pop-product-hover">
-                                <div class="label">
-                                    <a href="" class="new">New</a>
-                                </div>
-                                <a href="">
-                                    <img class="product-img" src="./img/product-blue-airpods.jpg"
-                                        alt="Case for AirPods – Blue">
-                                </a>
-                                <ul class="menu-hover">
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-shuffle"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-magnifying-glass"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-regular fa-heart"></i></a></li>
-                                </ul>
-                                <a href="">
-                                    <div class="btn-cart">Add to Cart</div>
-                                </a>
-                            </div>
-                            <div class="pop-product-info">
-                                <h3 class="pop-product-name">
-                                    <a href="">Case for AirPods – Blue</a>
-                                </h3>
-                                <span class="pop-product-category">
-                                    <a href="">Cases</a>
-                                </span>
-                                <span class="pop-product-price">$9.99</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="pop-product">
-                            <div class="pop-product-hover">
-                                <a href="">
-                                    <img class="product-img" src="./img/product-iphone-13.jpg"
-                                        alt="iPhone 13 Case – Smokey Black">
-                                </a>
-                                <ul class="menu-hover">
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-shuffle"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-solid fa-magnifying-glass"></i></a></li>
-                                    <li class="menu-item"><a href="" class="menu-link"><i
-                                                class="fa-regular fa-heart"></i></a></li>
-                                </ul>
-                                <a href="">
-                                    <div class="btn-cart">Add to Cart</div>
-                                </a>
-                            </div>
-                            <div class="pop-product-info">
-                                <h3 class="pop-product-name">
-                                    <a href="">iPhone 13 Case – Smokey Black</a>
-                                </h3>
-                                <span class="pop-product-category">
-                                    <a href="">IPhone 13</a>
-                                </span>
-                                <span class="pop-product-price">$169.00</span>
-                            </div>
-                        </div>
-                    </div>
+                <div class="category-content">
+                  <a href="./page/charger.html">
+                    <h3 class="category-name">Charger</h3>
+                    <span class="category-quantity">12 product</span>
+                  </a>
                 </div>
+              </div>
             </div>
-        </section>
-        <!-- End propular-product -->
-        <!-- Begin gadgets -->
-        <section class="gadgets">
-            <div class="product-gadget">
-                <div class="container">
-                    <div class="row">
-                        <div class="interesting-gadgets">
-                            <div class="best-news">
-                                <div class="sub-title">Our new article best news</div>
-                                <h4 class="title-container">Interesting About Gadgets</h4>
-                                <div class="sub_title-after-sub_title">Whenever draft copy comes up in a meeting
-                                    confused questions about</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="product-gadgets">
-                                <a href="" class="product-gadgets-buttons">Decoration</a>
-                                <div class="product-gadgets-img">
-                                    <a href=""><img src="./img/blog-img-1.jpg.webp" alt="Decoration"></a>
-                                </div>
-                                <div class="gadgets-buttons">
-                                    <div class="gad-btn"></div>
-                                    <div class="gad-btn"></div>
-                                    <div class="gad-btn"></div>
-                                </div>
-                                <div class="product-gadgets-content">
-                                    <h3 class="product-gadgets-title"><a href="">Exploring Atlanta's modern homes</a>
-                                    </h3>
-                                    <div class="author-gadgets">
-                                        <img src="./img/avatar-home.jpg" alt="author gadgets">
-                                        <span class="author author-name"><a href="">Megamarket</a></span>
-                                        <span class="author author-messenger"><a href=""><i
-                                                    class="fa-regular fa-message"></i></a></span>
-                                        <span class="author author-share"><a href=""><i
-                                                    class="fa-solid fa-share-nodes fa-flip-vertical fa-lg"></i></a></span>
-                                    </div>
-                                </div>
-                                <div class="product-gadgets-date-month">
-                                    <div class="date-month">
-                                        <span class="date">22</span>
-                                        <span class="month">apr</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="product-gadgets">
-                                <a href="" class="product-gadgets-buttons">Inspiration</a>
-                                <div class="product-gadgets-img">
-                                    <a href=""><img src="./img/blog-img-2.jpg.webp" alt="Inspiration"></a>
-                                </div>
-                                <div class="gadgets-buttons">
-                                    <div class="gad-btn"></div>
-                                    <div class="gad-btn"></div>
-                                    <div class="gad-btn"></div>
-                                </div>
-                                <div class="product-gadgets-content">
-                                    <h3 class="product-gadgets-title"><a href="">Green interior design inspiration</a>
-                                    </h3>
-                                    <div class="author-gadgets">
-                                        <img src="./img/avatar-home.jpg" alt="author gadgets">
-                                        <span class="author author-name"><a href="">Mr. Mackay</a></span>
-                                        <span class="author author-messenger"><a href=""><i
-                                                    class="fa-regular fa-message"></i></a></span>
-                                        <span class="author author-share"><a href=""><i
-                                                    class="fa-solid fa-share-nodes fa-flip-vertical fa-lg"></i></a></span>
-                                    </div>
-                                </div>
-                                <div class="product-gadgets-date-month">
-                                    <div class="date-month">
-                                        <span class="date">22</span>
-                                        <span class="month">apr</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="product-gadgets">
-                                <a href="" class="product-gadgets-buttons">Furniture</a>
-                                <div class="product-gadgets-img">
-                                    <a href=""><img src="./img/blog-img-3.jpg.webp" alt="Furniture"></a>
-                                </div>
-                                <div class="gadgets-buttons">
-                                    <div class="gad-btn"></div>
-                                    <div class="gad-btn"></div>
-                                    <div class="gad-btn"></div>
-                                </div>
-                                <div class="product-gadgets-content">
-                                    <h3 class="product-gadgets-title"><a href="">Collar brings back coffee brewing
-                                            ritual</a></h3>
-                                    <div class="author-gadgets">
-                                        <img src="./img/avatar-home.jpg" alt="author gadgets">
-                                        <span class="author author-name"><a href="">Mr. Mackay</a></span>
-                                        <span class="author author-messenger"><a href=""><i
-                                                    class="fa-regular fa-message"></i></a></span>
-                                        <span class="author author-share"><a href=""><i
-                                                    class="fa-solid fa-share-nodes fa-flip-vertical fa-lg"></i></a></span>
-                                    </div>
-                                </div>
-                                <div class="product-gadgets-date-month">
-                                    <div class="date-month">
-                                        <span class="date">22</span>
-                                        <span class="month">apr</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="product-gadgets">
-                                <a href="" class="product-gadgets-buttons">Design trends</a>
-                                <div class="product-gadgets-img">
-                                    <a href=""><img src="./img/blog-img-4.jpg.webp" alt="Design trends"></a>
-                                </div>
-                                <div class="gadgets-buttons">
-                                    <div class="gad-btn"></div>
-                                    <div class="gad-btn"></div>
-                                    <div class="gad-btn"></div>
-                                </div>
-                                <div class="product-gadgets-content">
-                                    <h3 class="product-gadgets-title"><a href="">Reinterprets the classic bookshelf</a>
-                                    </h3>
-                                    <div class="author-gadgets">
-                                        <img src="./img/avatar-home.jpg" alt="author gadgets">
-                                        <span class="author author-name"><a href="">Mr. Mackay</a></span>
-                                        <span class="author author-messenger"><a href=""><i
-                                                    class="fa-regular fa-message"></i></a></span>
-                                        <span class="author author-share"><a href=""><i
-                                                    class="fa-solid fa-share-nodes fa-flip-vertical fa-lg"></i></a></span>
-                                    </div>
-                                </div>
-                                <div class="product-gadgets-date-month">
-                                    <div class="date-month">
-                                        <span class="date">22</span>
-                                        <span class="month">apr</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-md-2">
+              <div class="categories">
+                <div class="category-item">
+                  <a href="./page/straps.html">
+                    <img
+                      src="./img/category-5.jpg.webp"
+                      alt=""
+                      class="category-img"
+                    />
+                  </a>
                 </div>
+                <div class="category-content">
+                  <a href="./page/straps.html">
+                    <h3 class="category-name">Straps</h3>
+                    <span class="category-quantity">38 product</span>
+                  </a>
+                </div>
+              </div>
             </div>
-        </section>
-        <!-- End gadgets -->
-        <!-- Begin advertise -->
-        <section class="advertises">
-            <div class="advertise">
-                <div class="advertise-ins">
-                    <div class="adv-item">
-                        <a href="https://www.instagram.com/pods.wear/" target="_self">
-                            <img src="./img/advertise-to-ins-1.webp" alt="" class="advertise-img">
-                        </a>
-                    </div>
-                    <div class="adv-content-hover">
-                        <span><a href="https://www.instagram.com/pods.wear/"><i class="icon-ads fa-regular fa-heart"
-                                    style="color: #ffffff;"></i><span class="number">9516</span></a></span>
-                        <span><a href="https://www.instagram.com/pods.wear/"><i class="icon-ads fa-regular fa-message"
-                                    style="color: #ffffff;"></i><span class="number">343</span></a></span>
-                    </div>
+            <div class="col-md-2">
+              <div class="categories">
+                <div class="category-item">
+                  <a href="./page/power-banks.html">
+                    <img
+                      src="./img/category-6.jpg.webp"
+                      alt=""
+                      class="category-img"
+                    />
+                  </a>
                 </div>
-                <div class="advertise-ins">
-                    <div class="adv-item">
-                        <a href="https://www.instagram.com/pods.wear/" target="_self">
-                            <img src="./img/advertise-to-ins-2.webp" alt="" class="advertise-img">
-                        </a>
-                    </div>
-                    <div class="adv-content-hover">
-                        <span><a href="https://www.instagram.com/pods.wear/"><i class="icon-ads fa-regular fa-heart"
-                                    style="color: #ffffff;"></i><span class="number">9085</span></a></span>
-                        <span><a href="https://www.instagram.com/pods.wear/"><i class="icon-ads fa-regular fa-message"
-                                    style="color: #ffffff;"></i><span class="number">887</span></a></span>
-                    </div>
+                <div class="category-content">
+                  <a href="./page/power-banks.html">
+                    <h3 class="category-name">Power Banks</h3>
+                    <span class="category-quantity">18 product</span>
+                  </a>
                 </div>
-                <div class="advertise-ins">
-                    <div class="adv-item">
-                        <a href="https://www.instagram.com/pods.wear/" target="_self">
-                            <img src="./img/advertise-to-ins-3.webp" alt="" class="advertise-img">
-                        </a>
-                    </div>
-                    <div class="adv-content-hover">
-                        <span><a href="https://www.instagram.com/pods.wear/"><i class="icon-ads fa-regular fa-heart"
-                                    style="color: #ffffff;"></i><span class="number">5052</span></a></span>
-                        <span><a href="https://www.instagram.com/pods.wear/"><i class="icon-ads fa-regular fa-message"
-                                    style="color: #ffffff;"></i><span class="number">782</span></a></span>
-                    </div>
-                </div>
-                <div class="advertise-ins">
-                    <div class="adv-item">
-                        <a href="https://www.instagram.com/pods.wear/" target="_self">
-                            <img src="./img/advertise-to-ins-4.webp" alt="" class="advertise-img">
-                        </a>
-                    </div>
-                    <div class="adv-content-hover">
-                        <span><a href="https://www.instagram.com/pods.wear/"><i class="icon-ads fa-regular fa-heart"
-                                    style="color: #ffffff;"></i><span class="number">2433</span></a></span>
-                        <span><a href="https://www.instagram.com/pods.wear/"><i class="icon-ads fa-regular fa-message"
-                                    style="color: #ffffff;"></i><span class="number">485</span></a></span>
-                    </div>
-                </div>
-                <div class="advertise-ins">
-                    <div class="adv-item">
-                        <a href="https://www.instagram.com/pods.wear/" target="_self">
-                            <img src="./img/advertise-to-ins-5.webp" alt="" class="advertise-img">
-                        </a>
-                    </div>
-                    <div class="adv-content-hover">
-                        <span><a href="https://www.instagram.com/pods.wear/"><i class="icon-ads fa-regular fa-heart"
-                                    style="color: #ffffff;"></i><span class="number">2706</span></a></span>
-                        <span><a href="https://www.instagram.com/pods.wear/"><i class="icon-ads fa-regular fa-message"
-                                    style="color: #ffffff;"></i><span class="number">424</span></a></span>
-                    </div>
-                </div>
-                <div class="advertise-ins">
-                    <div class="adv-item">
-                        <a href="https://www.instagram.com/pods.wear/" target="_self">
-                            <img src="./img/advertise-to-ins-6.webp" alt="" class="advertise-img">
-                        </a>
-                    </div>
-                    <div class="adv-content-hover">
-                        <span><a href="https://www.instagram.com/pods.wear/"><i class="icon-ads fa-regular fa-heart"
-                                    style="color: #ffffff;"></i><span class="number">5640</span></a></span>
-                        <span><a href="https://www.instagram.com/pods.wear/"><i class="icon-ads fa-regular fa-message"
-                                    style="color: #ffffff;"></i><span class="number">561</span></a></span>
-                    </div>
-                </div>
-                <div class="advertise-ins">
-                    <div class="adv-item">
-                        <a href="https://www.instagram.com/pods.wear/" target="_self">
-                            <img src="./img/advertise-to-ins-7.webp" alt="" class="advertise-img">
-                        </a>
-                    </div>
-                    <div class="adv-content-hover">
-                        <span><a href="https://www.instagram.com/pods.wear/"><i class="icon-ads fa-regular fa-heart"
-                                    style="color: #ffffff;"></i><span class="number">9350</span></a></span>
-                        <span><a href="https://www.instagram.com/pods.wear/"><i class="icon-ads fa-regular fa-message"
-                                    style="color: #ffffff;"></i><span class="number">771</span></a></span>
-                    </div>
-                </div>
-                <div class="advertise-ins">
-                    <div class="adv-item">
-                        <a href="https://www.instagram.com/pods.wear/" target="_self">
-                            <img src="./img/advertise-to-ins-8.webp" alt="" class="advertise-img">
-                        </a>
-                    </div>
-                    <div class="adv-content-hover">
-                        <span><a href="https://www.instagram.com/pods.wear/"><i class="icon-ads fa-regular fa-heart"
-                                    style="color: #ffffff;"></i><span class="number">3173</span></a></span>
-                        <span><a href="https://www.instagram.com/pods.wear/"><i class="icon-ads fa-regular fa-message"
-                                    style="color: #ffffff;"></i><span class="number">704</span></a></span>
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
-        <!-- End advertise-->
+          </div>
+        </div>
+      </section>
+      <!-- End-category -->
+      <!-- Begin new-product -->
+      <section class="new-product">
+        <div class="container">
+          <div class="row">
+            <div class="arrivals">
+              <div class="sub-title">Hurry up to buy</div>
+              <h4 class="title-container">New Arrivals</h4>
+              <div class="sub_title-after-sub_title">
+                How can you evaluate content without design
+              </div>
+              <ul>
+                <li><a href="">Cases</a></li>
+                <li><a href="">Straps</a></li>
+                <li><a href="">Magsafe</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="product-item">
+                <div class="product-hover">
+                  <a href="./page/product-detail.html">
+                    <img
+                      class="product-img"
+                      src="./img/iPhone-12-Pro-Moment-Case-Blue.jpg.webp"
+                      alt="iPhone 12 Pro Moment Case-Blue"
+                    />
+                  </a>
+                  <ul class="menu-hover">
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-shuffle"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-regular fa-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <a href="">
+                    <div class="btn-cart">Add to Cart</div>
+                  </a>
+                </div>
+                <div class="product-info">
+                  <h3 class="product-name">
+                    <a href="">iPhone 12 Pro Moment Case – Blue</a>
+                  </h3>
+                  <span class="product-category">
+                    <a href="">IPhone 12 pro</a>
+                  </span>
+                  <span class="product-price">$149.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="product-item">
+                <div class="product-hover">
+                  <a href="">
+                    <img
+                      class="product-img"
+                      src="./img/Full-Aquarelle-iPhone-XR.jpg.webp"
+                      alt="Full Aquarelle iPhone XR"
+                    />
+                  </a>
+                  <ul class="menu-hover">
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-shuffle"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-regular fa-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <a href="">
+                    <div class="btn-cart">Add to Cart</div>
+                  </a>
+                </div>
+                <div class="product-info">
+                  <h3 class="product-name">
+                    <a href="">Full Aquarelle iPhone XR</a>
+                  </h3>
+                  <span class="product-category">
+                    <a href="">IPhone XR</a>
+                  </span>
+                  <span class="product-price">$169.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="product-item">
+                <div class="product-hover">
+                  <div class="label">
+                    <a href="" class="hot">Hot</a>
+                  </div>
+                  <a href="">
+                    <img
+                      class="product-img"
+                      src="./img/Leather-Case-iPhone-12-Deep-Violet.jpg.webp"
+                      alt="Leather Case iPhone 12 Deep Violet"
+                    />
+                  </a>
+                  <ul class="menu-hover">
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-shuffle"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-regular fa-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <a href="">
+                    <div class="btn-cart">Add to Cart</div>
+                  </a>
+                </div>
+                <div class="product-info">
+                  <h3 class="product-name">
+                    <a href="">Leather Case iPhone 12 Deep Violet</a>
+                  </h3>
+                  <span class="product-category">
+                    <a href="">IPhone 12</a>
+                  </span>
+                  <span class="product-price">$230.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="product-item">
+                <div class="product-hover">
+                  <a href="">
+                    <img
+                      class="product-img"
+                      src="./img/iPhone-13-Case-Luxe-Dusty-Pink.jpg.webp"
+                      alt="iPhone 13 Case Luxe-Dusty Pink"
+                    />
+                  </a>
+                  <ul class="menu-hover">
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-shuffle"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-regular fa-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <a href="">
+                    <div class="btn-cart">Add to Cart</div>
+                  </a>
+                </div>
+                <div class="product-info">
+                  <h3 class="product-name">
+                    <a href="">iPhone 13 Case Luxe – Dusty Pink</a>
+                  </h3>
+                  <span class="product-category">
+                    <a href="">IPhone 13</a>
+                  </span>
+                  <span class="product-price">$149.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="product-item">
+                <div class="product-hover">
+                  <a href="">
+                    <img
+                      class="product-img"
+                      src="./img/iPhone-13-Case-Max-Black.jpg.webp"
+                      alt="iPhone 13 Case Max-Black"
+                    />
+                  </a>
+                  <ul class="menu-hover">
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-shuffle"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-regular fa-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <a href="">
+                    <div class="btn-cart">Add to Cart</div>
+                  </a>
+                </div>
+                <div class="product-info">
+                  <h3 class="product-name">
+                    <a href="">iPhone 13 Case Max – Black</a>
+                  </h3>
+                  <span class="product-category">
+                    <a href="">IPhone 13</a>
+                  </span>
+                  <span class="product-price">$159.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="product-item">
+                <div class="product-hover">
+                  <a href="">
+                    <img
+                      class="product-img"
+                      src="./img/iPhone-13-Case-With-MagSafe-Red-Rose.jpg.webp"
+                      alt="iPhone 13 Case With MagSafe-Red Rose"
+                    />
+                  </a>
+                  <ul class="menu-hover">
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-shuffle"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-regular fa-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <a href="">
+                    <div class="btn-cart">Add to Cart</div>
+                  </a>
+                </div>
+                <div class="product-info">
+                  <h3 class="product-name">
+                    <a href="">iPhone 13 Case With MagSafe – Red Rose</a>
+                  </h3>
+                  <span class="product-category">
+                    <a href="">IPhone 13</a>
+                  </span>
+                  <span class="product-price">$199.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="product-item">
+                <div class="product-hover">
+                  <a href="">
+                    <img
+                      class="product-img"
+                      src="./img/Epik-Silicone-Case-Full-Lavender.jpg.webp"
+                      alt="Epik Silicone Case Full-Lavender"
+                    />
+                  </a>
+                  <ul class="menu-hover">
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-shuffle"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-regular fa-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <a href="">
+                    <div class="btn-cart">Add to Cart</div>
+                  </a>
+                </div>
+                <div class="product-info">
+                  <h3 class="product-name">
+                    <a href="">Epik Silicone Case Full – Lavender</a>
+                  </h3>
+                  <span class="product-category">
+                    <a href="">IPhone 12</a>
+                  </span>
+                  <span class="product-price">$99.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="product-item">
+                <div class="product-hover">
+                  <a href="">
+                    <img
+                      class="product-img"
+                      src="./img/iPhone-12-Pro-Max-Silicone-BlackWhite.jpg.webp"
+                      alt="iPhone 12 Pro Max Silicone-Black/White"
+                    />
+                  </a>
+                  <ul class="menu-hover">
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-shuffle"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-regular fa-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <a href="">
+                    <div class="btn-cart">Add to Cart</div>
+                  </a>
+                </div>
+                <div class="product-info">
+                  <h3 class="product-name">
+                    <a href="">iPhone 12 Pro Max Silicone – Black/White</a>
+                  </h3>
+                  <span class="product-category">
+                    <a href="">IPhone 12 pro</a>
+                  </span>
+                  <span class="product-price">$99.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End new-product -->
+      <!-- Begin quality -->
+      <section class="quality">
+        <div class="container">
+          <div class="row">
+            <div class="factors">
+              <div class="provide-high-quality">
+                <div class="sub-title">There are some redeeming factors</div>
+                <h4 class="title-container">We Provide High Quality Goods</h4>
+                <div class="sub_title-after-sub_title">
+                  A client that's unhappy for a reason is a problem, a client
+                  that's unhappy though he or her can't
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="service-quality">
+                <img
+                  class="service-icon"
+                  src="./img/infobox-1.svg"
+                  alt="service icon"
+                />
+                <div class="service-content">
+                  <h4 class="service-title">Fast Delivery</h4>
+                  <div class="title-after-title">
+                    <p
+                      style="color: #858585; font-size: 15px; font-weight: 450"
+                    >
+                      Chances are there wasn't collaboration and checkpoints,
+                      there wasn't a process.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-quality">
+                <img
+                  class="service-icon"
+                  src="./img/infobox-2.svg"
+                  alt="service icon"
+                />
+                <div class="service-content">
+                  <h4 class="service-title">Best Quality</h4>
+                  <div class="title-after-title">
+                    <p
+                      style="color: #858585; font-size: 15px; font-weight: 450"
+                    >
+                      It's content strategy gone awry right from the start.
+                      Forswearing the use of Lorem Ipsum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-quality">
+                <img
+                  class="service-icon"
+                  src="./img/infobox-3.svg"
+                  alt="service icon"
+                />
+                <div class="service-content">
+                  <h4 class="service-title">Free Return</h4>
+                  <div class="title-after-title">
+                    <p
+                      style="color: #858585; font-size: 15px; font-weight: 450"
+                    >
+                      True enough, but that's not all that it takes to get
+                      things back on track out there for a text.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-5">
+              <div class="banner">
+                <div class="banner-img">
+                  <a href="./page/cases.html"
+                    ><img
+                      src="./img/banner-quality-1.jpg.webp"
+                      alt="Cases for Phone"
+                  /></a>
+                </div>
+                <div class="banner-content">
+                  <a href="./page/cases.html">
+                    <div class="banner-subtitle">Something completely new</div>
+                    <h4 class="banner-title">Cases for Phone</h4>
+                    <div class="button-nav-row-first">
+                      <a href="./page/cases.html" class="button-left"
+                        >To Shop</a
+                      >
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="banner">
+                <div class="banner-img">
+                  <a href="./page/straps.html"
+                    ><img
+                      src="./img/banner-quality-2.jpg.webp"
+                      alt="Straps of Any Color"
+                  /></a>
+                </div>
+                <div class="banner-content">
+                  <a href="./page/straps.html">
+                    <div class="banner-subtitle">Accessories for watch</div>
+                    <h4 class="banner-title">Straps of Any Color</h4>
+                    <div class="button-nav-row-first">
+                      <a href="./page/straps.html" class="button-right"
+                        >To Shop</a
+                      >
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-7">
+              <div class="banner">
+                <div class="banner-img">
+                  <a href="./page/power-banks.html"
+                    ><img
+                      src="./img/banner-quality-3.jpg.webp"
+                      alt="Straps of Any Color"
+                  /></a>
+                </div>
+                <div class="banner-content">
+                  <a href="./page/power-banks.html">
+                    <div class="banner-subtitle">Special Offer</div>
+                    <h4 class="banner-title">
+                      Buy One and Get 50%<br />Off the Second
+                    </h4>
+                    <div class="button-nav-row-two">
+                      <a href="./page/power-banks.html" class="button-left"
+                        >Read more</a
+                      >
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="banner">
+                <div class="banner-img">
+                  <a href="./page/charger.html"
+                    ><img
+                      src="./img/banner-quality-4.jpg.webp"
+                      alt="Straps of Any Color"
+                  /></a>
+                </div>
+                <div class="banner-content">
+                  <a href="./page/charger.html">
+                    <div class="banner-subtitle">Try something completely</div>
+                    <h4 class="banner-title">Charger Discount</h4>
+                    <div class="button-nav-row-two">
+                      <a href="./page/charger.html" class="button-right"
+                        >Buy now</a
+                      >
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End quality -->
+      <!-- Begin propular-product -->
+      <section class="popular">
+        <div class="container">
+          <div class="row">
+            <div class="popular-products">
+              <div class="most-popular-products">
+                <div class="sub-title">Learn how to get a discount</div>
+                <h4 class="title-container">Most Popular Products</h4>
+                <div class="sub_title-after-sub_title">
+                  Proponents of content strategy may shun of dummy copy
+                  designers
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="pop-product">
+                <div class="pop-product-hover">
+                  <a href="">
+                    <img
+                      class="product-img"
+                      src="./img/product.jpg"
+                      alt="iPhone Leather Wallet Black"
+                    />
+                  </a>
+                  <ul class="menu-hover">
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-shuffle"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-regular fa-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <a href="">
+                    <div class="btn-cart">Add to Cart</div>
+                  </a>
+                </div>
+                <div class="pop-product-info">
+                  <h3 class="pop-product-name">
+                    <a href="">iPhone Leather Wallet Black</a>
+                  </h3>
+                  <span class="pop-product-category">
+                    <a href="">Wallet</a>
+                  </span>
+                  <span class="pop-product-price">$199.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="pop-product">
+                <div class="pop-product-hover">
+                  <div class="label">
+                    <a href="" class="hot">Hot</a>
+                  </div>
+                  <a href="">
+                    <img
+                      class="product-img"
+                      src="./img/product-olive-strap.jpg"
+                      alt="iPhone 12 Pro Moment Case-Blue"
+                    />
+                  </a>
+                  <ul class="menu-hover">
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-shuffle"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-regular fa-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <a href="">
+                    <div class="btn-cart">Add to Cart</div>
+                  </a>
+                </div>
+                <div class="pop-product-info">
+                  <h3 class="pop-product-name">
+                    <a href="">Everyday Leather Strap – Olive</a>
+                  </h3>
+                  <span class="pop-product-category">
+                    <a href="">Silicone</a>
+                  </span>
+                  <span class="pop-product-price">$199.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="pop-product">
+                <div class="pop-product-hover">
+                  <div class="label">
+                    <a href="" class="new">New</a>
+                  </div>
+                  <a href="">
+                    <img
+                      class="product-img"
+                      src="./img/product-blue-airpods.jpg"
+                      alt="Case for AirPods – Blue"
+                    />
+                  </a>
+                  <ul class="menu-hover">
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-shuffle"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-regular fa-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <a href="">
+                    <div class="btn-cart">Add to Cart</div>
+                  </a>
+                </div>
+                <div class="pop-product-info">
+                  <h3 class="pop-product-name">
+                    <a href="">Case for AirPods – Blue</a>
+                  </h3>
+                  <span class="pop-product-category">
+                    <a href="">Cases</a>
+                  </span>
+                  <span class="pop-product-price">$9.99</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="pop-product">
+                <div class="pop-product-hover">
+                  <a href="">
+                    <img
+                      class="product-img"
+                      src="./img/product-iphone-13.jpg"
+                      alt="iPhone 13 Case – Smokey Black"
+                    />
+                  </a>
+                  <ul class="menu-hover">
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-shuffle"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="" class="menu-link"
+                        ><i class="fa-regular fa-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <a href="">
+                    <div class="btn-cart">Add to Cart</div>
+                  </a>
+                </div>
+                <div class="pop-product-info">
+                  <h3 class="pop-product-name">
+                    <a href="">iPhone 13 Case – Smokey Black</a>
+                  </h3>
+                  <span class="pop-product-category">
+                    <a href="">IPhone 13</a>
+                  </span>
+                  <span class="pop-product-price">$169.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End propular-product -->
+      <!-- Begin gadgets -->
+      <section class="gadgets">
+        <div class="product-gadget">
+          <div class="container">
+            <div class="row">
+              <div class="interesting-gadgets">
+                <div class="best-news">
+                  <div class="sub-title">Our new article best news</div>
+                  <h4 class="title-container">Interesting About Gadgets</h4>
+                  <div class="sub_title-after-sub_title">
+                    Whenever draft copy comes up in a meeting confused questions
+                    about
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="product-gadgets">
+                  <a href="" class="product-gadgets-buttons">Decoration</a>
+                  <div class="product-gadgets-img">
+                    <a href=""
+                      ><img src="./img/blog-img-1.jpg.webp" alt="Decoration"
+                    /></a>
+                  </div>
+                  <div class="gadgets-buttons">
+                    <div class="gad-btn"></div>
+                    <div class="gad-btn"></div>
+                    <div class="gad-btn"></div>
+                  </div>
+                  <div class="product-gadgets-content">
+                    <h3 class="product-gadgets-title">
+                      <a href="">Exploring Atlanta's modern homes</a>
+                    </h3>
+                    <div class="author-gadgets">
+                      <img src="./img/avatar-home.jpg" alt="author gadgets" />
+                      <span class="author author-name"
+                        ><a href="">Megamarket</a></span
+                      >
+                      <span class="author author-messenger"
+                        ><a href=""><i class="fa-regular fa-message"></i></a
+                      ></span>
+                      <span class="author author-share"
+                        ><a href=""
+                          ><i
+                            class="fa-solid fa-share-nodes fa-flip-vertical fa-lg"
+                          ></i></a
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="product-gadgets-date-month">
+                    <div class="date-month">
+                      <span class="date">22</span>
+                      <span class="month">apr</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product-gadgets">
+                  <a href="" class="product-gadgets-buttons">Inspiration</a>
+                  <div class="product-gadgets-img">
+                    <a href=""
+                      ><img src="./img/blog-img-2.jpg.webp" alt="Inspiration"
+                    /></a>
+                  </div>
+                  <div class="gadgets-buttons">
+                    <div class="gad-btn"></div>
+                    <div class="gad-btn"></div>
+                    <div class="gad-btn"></div>
+                  </div>
+                  <div class="product-gadgets-content">
+                    <h3 class="product-gadgets-title">
+                      <a href="">Green interior design inspiration</a>
+                    </h3>
+                    <div class="author-gadgets">
+                      <img src="./img/avatar-home.jpg" alt="author gadgets" />
+                      <span class="author author-name"
+                        ><a href="">Mr. Mackay</a></span
+                      >
+                      <span class="author author-messenger"
+                        ><a href=""><i class="fa-regular fa-message"></i></a
+                      ></span>
+                      <span class="author author-share"
+                        ><a href=""
+                          ><i
+                            class="fa-solid fa-share-nodes fa-flip-vertical fa-lg"
+                          ></i></a
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="product-gadgets-date-month">
+                    <div class="date-month">
+                      <span class="date">22</span>
+                      <span class="month">apr</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product-gadgets">
+                  <a href="" class="product-gadgets-buttons">Furniture</a>
+                  <div class="product-gadgets-img">
+                    <a href=""
+                      ><img src="./img/blog-img-3.jpg.webp" alt="Furniture"
+                    /></a>
+                  </div>
+                  <div class="gadgets-buttons">
+                    <div class="gad-btn"></div>
+                    <div class="gad-btn"></div>
+                    <div class="gad-btn"></div>
+                  </div>
+                  <div class="product-gadgets-content">
+                    <h3 class="product-gadgets-title">
+                      <a href="">Collar brings back coffee brewing ritual</a>
+                    </h3>
+                    <div class="author-gadgets">
+                      <img src="./img/avatar-home.jpg" alt="author gadgets" />
+                      <span class="author author-name"
+                        ><a href="">Mr. Mackay</a></span
+                      >
+                      <span class="author author-messenger"
+                        ><a href=""><i class="fa-regular fa-message"></i></a
+                      ></span>
+                      <span class="author author-share"
+                        ><a href=""
+                          ><i
+                            class="fa-solid fa-share-nodes fa-flip-vertical fa-lg"
+                          ></i></a
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="product-gadgets-date-month">
+                    <div class="date-month">
+                      <span class="date">22</span>
+                      <span class="month">apr</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product-gadgets">
+                  <a href="" class="product-gadgets-buttons">Design trends</a>
+                  <div class="product-gadgets-img">
+                    <a href=""
+                      ><img src="./img/blog-img-4.jpg.webp" alt="Design trends"
+                    /></a>
+                  </div>
+                  <div class="gadgets-buttons">
+                    <div class="gad-btn"></div>
+                    <div class="gad-btn"></div>
+                    <div class="gad-btn"></div>
+                  </div>
+                  <div class="product-gadgets-content">
+                    <h3 class="product-gadgets-title">
+                      <a href="">Reinterprets the classic bookshelf</a>
+                    </h3>
+                    <div class="author-gadgets">
+                      <img src="./img/avatar-home.jpg" alt="author gadgets" />
+                      <span class="author author-name"
+                        ><a href="">Mr. Mackay</a></span
+                      >
+                      <span class="author author-messenger"
+                        ><a href=""><i class="fa-regular fa-message"></i></a
+                      ></span>
+                      <span class="author author-share"
+                        ><a href=""
+                          ><i
+                            class="fa-solid fa-share-nodes fa-flip-vertical fa-lg"
+                          ></i></a
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="product-gadgets-date-month">
+                    <div class="date-month">
+                      <span class="date">22</span>
+                      <span class="month">apr</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End gadgets -->
+      <!-- Begin advertise -->
+      <section class="advertises">
+        <div class="advertise">
+          <div class="advertise-ins">
+            <div class="adv-item">
+              <a href="https://www.instagram.com/pods.wear/" target="_self">
+                <img
+                  src="./img/advertise-to-ins-1.webp"
+                  alt=""
+                  class="advertise-img"
+                />
+              </a>
+            </div>
+            <div class="adv-content-hover">
+              <span
+                ><a href="https://www.instagram.com/pods.wear/"
+                  ><i
+                    class="icon-ads fa-regular fa-heart"
+                    style="color: #ffffff"
+                  ></i
+                  ><span class="number">9516</span></a
+                ></span
+              >
+              <span
+                ><a href="https://www.instagram.com/pods.wear/"
+                  ><i
+                    class="icon-ads fa-regular fa-message"
+                    style="color: #ffffff"
+                  ></i
+                  ><span class="number">343</span></a
+                ></span
+              >
+            </div>
+          </div>
+          <div class="advertise-ins">
+            <div class="adv-item">
+              <a href="https://www.instagram.com/pods.wear/" target="_self">
+                <img
+                  src="./img/advertise-to-ins-2.webp"
+                  alt=""
+                  class="advertise-img"
+                />
+              </a>
+            </div>
+            <div class="adv-content-hover">
+              <span
+                ><a href="https://www.instagram.com/pods.wear/"
+                  ><i
+                    class="icon-ads fa-regular fa-heart"
+                    style="color: #ffffff"
+                  ></i
+                  ><span class="number">9085</span></a
+                ></span
+              >
+              <span
+                ><a href="https://www.instagram.com/pods.wear/"
+                  ><i
+                    class="icon-ads fa-regular fa-message"
+                    style="color: #ffffff"
+                  ></i
+                  ><span class="number">887</span></a
+                ></span
+              >
+            </div>
+          </div>
+          <div class="advertise-ins">
+            <div class="adv-item">
+              <a href="https://www.instagram.com/pods.wear/" target="_self">
+                <img
+                  src="./img/advertise-to-ins-3.webp"
+                  alt=""
+                  class="advertise-img"
+                />
+              </a>
+            </div>
+            <div class="adv-content-hover">
+              <span
+                ><a href="https://www.instagram.com/pods.wear/"
+                  ><i
+                    class="icon-ads fa-regular fa-heart"
+                    style="color: #ffffff"
+                  ></i
+                  ><span class="number">5052</span></a
+                ></span
+              >
+              <span
+                ><a href="https://www.instagram.com/pods.wear/"
+                  ><i
+                    class="icon-ads fa-regular fa-message"
+                    style="color: #ffffff"
+                  ></i
+                  ><span class="number">782</span></a
+                ></span
+              >
+            </div>
+          </div>
+          <div class="advertise-ins">
+            <div class="adv-item">
+              <a href="https://www.instagram.com/pods.wear/" target="_self">
+                <img
+                  src="./img/advertise-to-ins-4.webp"
+                  alt=""
+                  class="advertise-img"
+                />
+              </a>
+            </div>
+            <div class="adv-content-hover">
+              <span
+                ><a href="https://www.instagram.com/pods.wear/"
+                  ><i
+                    class="icon-ads fa-regular fa-heart"
+                    style="color: #ffffff"
+                  ></i
+                  ><span class="number">2433</span></a
+                ></span
+              >
+              <span
+                ><a href="https://www.instagram.com/pods.wear/"
+                  ><i
+                    class="icon-ads fa-regular fa-message"
+                    style="color: #ffffff"
+                  ></i
+                  ><span class="number">485</span></a
+                ></span
+              >
+            </div>
+          </div>
+          <div class="advertise-ins">
+            <div class="adv-item">
+              <a href="https://www.instagram.com/pods.wear/" target="_self">
+                <img
+                  src="./img/advertise-to-ins-5.webp"
+                  alt=""
+                  class="advertise-img"
+                />
+              </a>
+            </div>
+            <div class="adv-content-hover">
+              <span
+                ><a href="https://www.instagram.com/pods.wear/"
+                  ><i
+                    class="icon-ads fa-regular fa-heart"
+                    style="color: #ffffff"
+                  ></i
+                  ><span class="number">2706</span></a
+                ></span
+              >
+              <span
+                ><a href="https://www.instagram.com/pods.wear/"
+                  ><i
+                    class="icon-ads fa-regular fa-message"
+                    style="color: #ffffff"
+                  ></i
+                  ><span class="number">424</span></a
+                ></span
+              >
+            </div>
+          </div>
+          <div class="advertise-ins">
+            <div class="adv-item">
+              <a href="https://www.instagram.com/pods.wear/" target="_self">
+                <img
+                  src="./img/advertise-to-ins-6.webp"
+                  alt=""
+                  class="advertise-img"
+                />
+              </a>
+            </div>
+            <div class="adv-content-hover">
+              <span
+                ><a href="https://www.instagram.com/pods.wear/"
+                  ><i
+                    class="icon-ads fa-regular fa-heart"
+                    style="color: #ffffff"
+                  ></i
+                  ><span class="number">5640</span></a
+                ></span
+              >
+              <span
+                ><a href="https://www.instagram.com/pods.wear/"
+                  ><i
+                    class="icon-ads fa-regular fa-message"
+                    style="color: #ffffff"
+                  ></i
+                  ><span class="number">561</span></a
+                ></span
+              >
+            </div>
+          </div>
+          <div class="advertise-ins">
+            <div class="adv-item">
+              <a href="https://www.instagram.com/pods.wear/" target="_self">
+                <img
+                  src="./img/advertise-to-ins-7.webp"
+                  alt=""
+                  class="advertise-img"
+                />
+              </a>
+            </div>
+            <div class="adv-content-hover">
+              <span
+                ><a href="https://www.instagram.com/pods.wear/"
+                  ><i
+                    class="icon-ads fa-regular fa-heart"
+                    style="color: #ffffff"
+                  ></i
+                  ><span class="number">9350</span></a
+                ></span
+              >
+              <span
+                ><a href="https://www.instagram.com/pods.wear/"
+                  ><i
+                    class="icon-ads fa-regular fa-message"
+                    style="color: #ffffff"
+                  ></i
+                  ><span class="number">771</span></a
+                ></span
+              >
+            </div>
+          </div>
+          <div class="advertise-ins">
+            <div class="adv-item">
+              <a href="https://www.instagram.com/pods.wear/" target="_self">
+                <img
+                  src="./img/advertise-to-ins-8.webp"
+                  alt=""
+                  class="advertise-img"
+                />
+              </a>
+            </div>
+            <div class="adv-content-hover">
+              <span
+                ><a href="https://www.instagram.com/pods.wear/"
+                  ><i
+                    class="icon-ads fa-regular fa-heart"
+                    style="color: #ffffff"
+                  ></i
+                  ><span class="number">3173</span></a
+                ></span
+              >
+              <span
+                ><a href="https://www.instagram.com/pods.wear/"
+                  ><i
+                    class="icon-ads fa-regular fa-message"
+                    style="color: #ffffff"
+                  ></i
+                  ><span class="number">704</span></a
+                ></span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End advertise-->
     </div>
     <!-- End wrapper -->
     <!-- Begin footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="ft-wrap">
-                    <div class="ft-logo">
-                        <a href="../index.html"><img src="./img/wood-logo-white-reserve.svg"
-                                alt="wood-logo-white-reserve"></a>
-                    </div>
-                    <div class="ft-menu">
-                        <ul class="menu-list">
-                            <li class="menu-item">
-                                <a href="" class="menu-link">About us</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="" class="menu-link">Privacy Policy</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="" class="menu-link">Shipping</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="" class="menu-link">Track Order</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="" class="menu-link">FAQs</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="ft-coppyright">
-                        <div class="ft-coppyright-describe">
-                            <p><a href="https://xtemos.com/">Xtemos Studio</a> Copyright &copy; 2024</p>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="ft-wrap">
+            <div class="ft-logo">
+              <a href="../index.html"
+                ><img
+                  src="./img/wood-logo-white-reserve.svg"
+                  alt="wood-logo-white-reserve"
+              /></a>
             </div>
+            <div class="ft-menu">
+              <ul class="menu-list">
+                <li class="menu-item">
+                  <a href="" class="menu-link">About us</a>
+                </li>
+                <li class="menu-item">
+                  <a href="" class="menu-link">Privacy Policy</a>
+                </li>
+                <li class="menu-item">
+                  <a href="" class="menu-link">Shipping</a>
+                </li>
+                <li class="menu-item">
+                  <a href="" class="menu-link">Track Order</a>
+                </li>
+                <li class="menu-item">
+                  <a href="" class="menu-link">FAQs</a>
+                </li>
+              </ul>
+            </div>
+            <div class="ft-coppyright">
+              <div class="ft-coppyright-describe">
+                <p>
+                  <a href="https://xtemos.com/">Xtemos Studio</a> Copyright
+                  &copy; 2024
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </footer>
     <!-- End footer -->
 
     <!-- Scroll to top -->
-    <a class="go-top-btn btn-show" href="#"><i class="fa-solid fa-angle-up"></i></a>
+    <a class="go-top-btn btn-show" href="#"
+      ><i class="fa-solid fa-angle-up"></i
+    ></a>
 
     <!-- My Javascript -->
     <script src="./js/main.js"></script>
-</body>
-
+  </body>
 </html>
