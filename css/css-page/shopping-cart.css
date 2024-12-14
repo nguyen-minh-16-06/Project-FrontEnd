@@ -189,7 +189,7 @@ ul {
   padding: 2px 5px;
 }
 
-.hd-wrap .hd-menu .left-menu .menu-item:hover > .sub-menu {
+.hd-wrap .hd-menu .left-menu .menu-item:hover>.sub-menu {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
@@ -203,7 +203,8 @@ ul {
 /* Thiết lập nền và căn chỉnh tiêu đề */
 .wd-page-title {
   background-color: #080a0a;
-  background-image: url(/Project-FrontEnd/img/img-page/anhcuaDucHieu/accessories-page-titleshoppingcart.jpg); /* Link ảnh nền */
+  background-image: url(/Project-FrontEnd/img/img-page/anhcuaDucHieu/accessories-page-titleshoppingcart.jpg);
+  /* Link ảnh nền */
   background-size: cover;
   background-position: center;
   padding: 60px 0;
@@ -237,7 +238,8 @@ ul {
 }
 
 .step-checkout a:hover span {
-  color: #fff; /* Đổi màu chữ thành trắng */
+  color: #fff;
+  /* Đổi màu chữ thành trắng */
   transition: 0.5s;
 }
 
@@ -352,7 +354,8 @@ span.screen-reader-text {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
   transform: scale(0);
-  overflow: hidden; /* Đảm bảo ẩn toàn bộ nội dung */
+  overflow: hidden;
+  /* Đảm bảo ẩn toàn bộ nội dung */
 }
 
 .shop-table-cart tr :is(td, th):last-child {
@@ -386,7 +389,7 @@ td.product-name a {
   font-weight: 600;
 }
 
-td.product-price > .amount {
+td.product-price>.amount {
   color: #777777;
 }
 
@@ -504,7 +507,8 @@ table :is(tbody, tfoot) th {
 }
 
 .woocommerce-shipping-methods li {
-  margin-bottom: 10px; /* Khoảng cách giữa các mục */
+  margin-bottom: 10px;
+  /* Khoảng cách giữa các mục */
 }
 
 .woocommerce-shipping-destination {

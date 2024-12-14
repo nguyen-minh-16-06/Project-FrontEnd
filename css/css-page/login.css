@@ -246,14 +246,14 @@ ul {
   width: 1080px;
   padding: 40px 15px;
   display: flex;
-  flex-direction: row;    
+  flex-direction: row;
   margin-left: auto;
   margin-right: auto;
 }
-  
+
 .login2_info {
   width: 50%;
-  border-left-color: rgba(0, 0, 0, 0.2) ;
+  border-left-color: rgba(0, 0, 0, 0.2);
   border-left: 1px solid;
   color: rgba(0, 0, 0, 0.2);
 }
@@ -306,7 +306,7 @@ label {
 }
 
 .username-email_info {
-  display:flex;
+  display: flex;
   flex-direction: column;
   margin: 0px 0px 23px;
 }
@@ -320,11 +320,11 @@ label {
   border: 1px solid;
   border-color: rgba(0, 0, 0, 0.1);
   outline: none;
-  color:rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .password_info {
-  display:flex;
+  display: flex;
   flex-direction: column;
   margin: 0px 0px 23px;
 }
@@ -338,17 +338,17 @@ label {
   border: 1px solid;
   border-color: rgba(0, 0, 0, 0.1);
   outline: none;
-  color:rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .instruction {
   margin: 0px 0px 26px;
   overflow-wrap: break-word;
   text-align: justify;
-  font-size: 14px; 
+  font-size: 14px;
   line-height: 23px;
   color: #777777;
-  font-weight: 400;  
+  font-weight: 400;
 }
 
 .policy_link {
@@ -362,13 +362,13 @@ label {
   border-radius: 5px;
   min-height: 42px;
   background-color: rgb(46, 107, 198);
-  color:#fff;
+  color: #fff;
   border: none;
   display: inline-block;
-  padding: 5px 20px; 
-  transition: opacity 0.2s; 
+  padding: 5px 20px;
+  transition: opacity 0.2s;
   opacity: 0.91;
-  text-shadow:0 0 25px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -403,7 +403,7 @@ label {
 .REGISTER_button {
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
   color: #333;
 }
 
@@ -411,7 +411,7 @@ label {
   border-radius: 5px;
   color: #242424;
   box-shadow: none;
-  background-color:#f7f7f7;
+  background-color: #f7f7f7;
   outline: none;
   border: none;
   height: 42px;
@@ -432,23 +432,23 @@ label {
 
 .remember_label {
   display: flex;
-  align-items: center;  
+  align-items: center;
 }
 
 .lost_password {
   display: flex;
   color: #2e6bc6;
   font-size: 14px;
-  align-items: center;  
+  align-items: center;
   margin-bottom: 5px;
 }
 
 .login2_info_inner {
   width: 100%;
   height: 100%;
-  padding: 0px 40px;  
+  padding: 0px 40px;
 }
-  
+
 /* =================================================================================== */
 /* footer */
 
@@ -512,7 +512,7 @@ label {
   font-weight: 700;
   text-transform: uppercase;
 }
-  
+
 /* ====================================================== */
 /* go-top-btn */
 
