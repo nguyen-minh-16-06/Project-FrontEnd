@@ -5,11 +5,11 @@ const slides = document.querySelectorAll(".slide");
 const buttons = document.querySelectorAll(".btn");
 const numberofslides = slides.length;
 
-var slidenumber = 0;
-var playslider;
+let slidenumber = 0;
+let playslider;
 
 // Tự động chuyển slides
-var repeat = () => {
+let repeat = () => {
     playslider = setInterval(function () {
         slides.forEach((slide) => {
             slide.classList.remove("active");
@@ -113,3 +113,101 @@ window.addEventListener('scroll', function () {
         goTopButton.classList.remove('visible');
     }
 });
+
+// Hiển thị nội dung động, đổ dữ liệu ra HTML (Dynamic UI Rendering)
+function renderProductList() {
+    let productListDom = document.getElementById("productList");
+    let html = "";
+
+    productList.forEach(product => {
+        html += `
+        <div class="col-md-3">
+            <div class="product-item">
+                <div class="product-hover">
+                    ${product.isHot ? '<div class="label"><a href="" class="hot">Hot</a></div>' : ''}
+                    ${product.isNew ? '<div class="label"><a href="" class="new">New</a></div>' : ''}
+                    <a href="./page/product-detail.html">
+                        <img class="product-img" src="${product.image}" alt="${product.name}" />
+                    </a>
+                    <ul class="menu-hover">
+                        <li class="menu-item">
+                            <a href="" class="menu-link"><i class="fa-solid fa-shuffle"></i></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="" class="menu-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="" class="menu-link"><i class="fa-regular fa-heart"></i></a>
+                        </li>
+                    </ul>
+                    <a href="">
+                        <div class="btn-cart">Add to Cart</div>
+                    </a>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">
+                        <a href="">${product.name}</a>
+                    </h3>
+                    <span class="product-category">
+                        <a href="">${product.category}</a>
+                    </span>
+                    <span class="product-price">$${product.price.toFixed(2)}</span>
+                </div>
+            </div>
+        </div>`
+    });
+    productListDom.innerHTML = html;
+}
+
+function renderPopProductList() {
+    let productListDom = document.getElementById("popProductList");
+    let html = "";
+
+    popProductList.forEach(product => {
+        html += `<div class="col-md-3">
+      <div class="pop-product">
+        <div class="pop-product-hover">
+        ${product.isHot ? '<div class="label"><a href="" class="hot">Hot</a></div>' : ''}
+        ${product.isNew ? '<div class="label"><a href="" class="new">New</a></div>' : ''}
+          <a href="">
+            <img class="product-img" src="${product.image}" alt="${product.name}"/>
+          </a>
+          <ul class="menu-hover">
+            <li class="menu-item">
+              <a href="" class="menu-link">
+                <i class="fa-solid fa-shuffle"></i>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-link">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-link">
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </li>
+          </ul>
+          <a href="">
+            <div class="btn-cart">Add to Cart</div>
+          </a>
+        </div>
+        <div class="pop-product-info">
+          <h3 class="pop-product-name">
+            <a href="">${product.name}</a>
+          </h3>
+          <span class="pop-product-category">
+            <a href="">${product.category}</a>
+          </span>
+          <span class="pop-product-price">$${product.price.toFixed(2)}</span>
+        </div>
+      </div>
+    </div>`
+        // toFixed(2) ở phẩn product.price để ép giá trị thành chuỗi với chính xác 2 chữ số sau dấu phẩy, bất kể số đó có phần thập phân hay không
+    });
+    productListDom.innerHTML = html;
+}
+
+renderProductList();
+renderPopProductList();

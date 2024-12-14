@@ -197,10 +197,9 @@ ul {
 
 .search-full-screen {
     position: relative;
-    height: 85vh; /* Chiều cao chiếm toàn bộ màn hình */
+    /* Chiều cao chiếm toàn bộ màn hình */
     background-color: var(--color-light);
-    justify-content: center;
-    box-shadow: 0 0 14px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 -3px 14px rgba(0, 0, 0, 0.08);
 }
 
 .close-search-icon {
@@ -210,7 +209,8 @@ ul {
     right: 35px;
 }
 
-.close-search-icon a, .close-search-icon>span {
+.close-search-icon a,
+.close-search-icon>span {
     color: var(--color-black);
     outline: none !important;
     transition: color 0.3s ease;
@@ -239,8 +239,9 @@ ul {
     outline: none;
 }
 
+/* Đặt màu đen cho placeholder */
 .search-input::placeholder {
-    color: var(--title-color); /* Đặt màu đen cho placeholder */
+    color: var(--title-color);
     font-weight: 700;
 }
 
@@ -250,3 +251,88 @@ ul {
     margin-top: 10px;
 }
 
+/* ====================================================== */
+/* new-product */
+
+.product-item {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    margin: 0 auto;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.product-hover {
+    position: relative;
+}
+
+.menu-hover,
+.btn-cart {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.menu-hover i {
+    color: #000000;
+}
+
+.product-item img {
+    width: 100%;
+}
+
+.menu-hover {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.product-item .menu-hover .menu-link i {
+    display: block;
+    font-size: 20px;
+    width: 45px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.product-item .product-info .product-name a {
+    display: block;
+    color: #414141;
+    height: 26.6px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-item .product-info .product-category a {
+    display: block;
+    color: #9d9c9c;
+    font-size: 13px;
+}
+
+.product-item .product-info .product-price {
+    color: #2e6bc6;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
