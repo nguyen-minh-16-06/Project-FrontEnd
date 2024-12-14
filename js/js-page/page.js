@@ -27,3 +27,62 @@ window.addEventListener('scroll', function () {
         goTopButton.classList.remove('visible');
     }
 });
+
+// Hàm lọc và cập nhật danh sách kết quả tìm kiếm
+function filterProducts(query) {
+    const queryLower = query.toLowerCase().trim();
+
+    if (queryLower.length < 3) {
+        renderProductList([]);
+        return;
+    }
+
+    const filteredProducts = productList.filter(product => {
+        const keywords = queryLower.split(/\s+/);
+        return keywords.every(keyword => {
+            return product.name.toLowerCase().includes(keyword) ||
+                product.category.toLowerCase().includes(keyword);
+        });
+    });
+    renderProductList(filteredProducts);
+}
+
+// Hàm đổ dữ liệu danh sách sản phẩm vào trang
+function renderProductList(productList) {
+    const productListDom = document.getElementById("productList");
+    let html = "";
+    const maxProducts = 18;
+
+    if (productList.length === 0) {
+        html = "";
+    } else {
+        const productsToRender = productList.slice(0, maxProducts);
+        productsToRender.forEach(product => {
+            html += `<div class="col-md-2">
+                <div class="product-item">
+                    <div class="product-hover">
+                        <a href="./product-detail.html">
+                            <img class="product-img" src="${product.image}" alt="${product.name}" />
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">
+                            <a href="">${product.name}</a>
+                        </h3>
+                        <span class="product-category">
+                            <a href="">${product.category}</a>
+                        </span>
+                        <span class="product-price">$${product.price.toFixed(2)}</span>
+                    </div>
+                </div>
+            </div>`
+        });
+    }
+    productListDom.innerHTML = html;
+}
+
+// Lắng nghe sự kiện nhập liệu trong ô tìm kiếm
+document.querySelector('.search-input').addEventListener('input', function (e) {
+    const query = e.target.value;
+    filterProducts(query);
+});
