@@ -524,11 +524,13 @@ strong {
   font-size: 20px;
 }
 
-.wc-proceed-to-checkout button {
+.wc-proceed-to-checkout a.button {
+  display: block;
   background-color: rgb(46, 107, 198);
   border-radius: 5px;
   color: #fff;
   text-transform: uppercase;
+  text-align: center;
   align-items: center;
   justify-content: center;
   border: none;
@@ -538,7 +540,7 @@ strong {
   width: 100%;
 }
 
-.wc-proceed-to-checkout button:hover {
+a.button:hover {
   background-color: #0066cc;
 }
 

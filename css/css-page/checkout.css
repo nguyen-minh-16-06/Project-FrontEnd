@@ -263,7 +263,7 @@ label {
 .Billing_title{
    width: 89px;
    line-height: 90px;
-   font: 110px; 
+   font: 110px Arial, Helvetica, sans-serif; 
    color: rgb(46,107,198);
    font-weight: 700;
    margin: 0px 0px 10px;
@@ -275,7 +275,7 @@ label {
 }
 
 .Billing-title_content{
-   font: 46px;    
+   font: 46px Arial, Helvetica, sans-serif;    
 }
 
 /********Billing info********/
@@ -493,7 +493,7 @@ textarea{
 .Check-order_title{
    width: 89px;
    line-height: 90px;
-   font: 110px; 
+   font: 110px Arial, Helvetica, sans-serif; 
    color: rgb(46,107,198);
    font-weight: 700;
    margin: 0px 0px 10px;
@@ -504,7 +504,7 @@ textarea{
 }
 
 .check-order-title_content{
-   font: 46px;
+   font: 46px Arial, Helvetica, sans-serif; 
 }
 
 .Order_info{
@@ -744,7 +744,7 @@ ul{
 .payment-info_title{
    width: 89px;
    line-height: 90px;
-   font: 110px; 
+   font: 110px Arial, Helvetica, sans-serif; 
    color: rgb(46,107,198);
    font-weight: 700;
    margin-bottom:  10px;
@@ -757,7 +757,7 @@ ul{
 }
 
 .payment-info-title_content{
-   font: 46px;
+   font: 46px Arial, Helvetica, sans-serif; 
 }
 
 /*3 Payment Infomartion*/
