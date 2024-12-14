@@ -1,7 +1,7 @@
 let productList = [
     {
         name: "iPhone 12 Pro Moment Case – Blue",
-        image: "../img/iPhone-12-Pro-Moment-Case-Blue.jpg.webp",
+        image: "./img/iPhone-12-Pro-Moment-Case-Blue.jpg.webp",
         price: 149.00,
         category: "IPhone 12 pro",
         isHot: false,
@@ -9,7 +9,7 @@ let productList = [
     },
     {
         name: "Full Aquarelle iPhone XR",
-        image: "../img/Full-Aquarelle-iPhone-XR.jpg.webp",
+        image: "./img/Full-Aquarelle-iPhone-XR.jpg.webp",
         price: 169.00,
         category: "IPhone XR",
         isHot: false,
@@ -17,7 +17,7 @@ let productList = [
     },
     {
         name: "Leather Case iPhone 12 Deep Violet",
-        image: "../img/Leather-Case-iPhone-12-Deep-Violet.jpg.webp",
+        image: "./img/Leather-Case-iPhone-12-Deep-Violet.jpg.webp",
         price: 230.00,
         category: "IPhone 12",
         isHot: true,
@@ -25,7 +25,7 @@ let productList = [
     },
     {
         name: "iPhone 13 Case Luxe – Dusty Pink",
-        image: "../img/iPhone-13-Case-Luxe-Dusty-Pink.jpg.webp",
+        image: "./img/iPhone-13-Case-Luxe-Dusty-Pink.jpg.webp",
         price: 149.00,
         category: "IPhone 13",
         isHot: false,
@@ -33,7 +33,7 @@ let productList = [
     },
     {
         name: "iPhone 13 Case Max – Black",
-        image: "../img/iPhone-13-Case-Max-Black.jpg.webp",
+        image: "./img/iPhone-13-Case-Max-Black.jpg.webp",
         price: 159.00,
         category: "IPhone 13",
         isHot: false,
@@ -41,7 +41,7 @@ let productList = [
     },
     {
         name: "iPhone 13 Case With MagSafe – Red Rose",
-        image: "../img/iPhone-13-Case-With-MagSafe-Red-Rose.jpg.webp",
+        image: "./img/iPhone-13-Case-With-MagSafe-Red-Rose.jpg.webp",
         price: 199.00,
         category: "IPhone 13",
         isHot: false,
@@ -49,7 +49,7 @@ let productList = [
     },
     {
         name: "Epik Silicone Case Full – Lavender",
-        image: "../img/Epik-Silicone-Case-Full-Lavender.jpg.webp",
+        image: "./img/Epik-Silicone-Case-Full-Lavender.jpg.webp",
         price: 99.00,
         category: "IPhone 12",
         isHot: false,
@@ -57,7 +57,7 @@ let productList = [
     },
     {
         name: "iPhone 12 Pro Max Silicone – Black/White",
-        image: "../img/iPhone-12-Pro-Max-Silicone-BlackWhite.jpg.webp",
+        image: "./img/iPhone-12-Pro-Max-Silicone-BlackWhite.jpg.webp",
         price: 99.00,
         category: "IPhone 12 pro",
         isHot: false,
@@ -68,7 +68,7 @@ let productList = [
 let popProductList = [
     {
         name: "iPhone Leather Wallet Black",
-        image: "../img/product.jpg",
+        image: "./img/product.jpg",
         price: 199.00,
         category: "Wallet",
         isHot: false,
