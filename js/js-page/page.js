@@ -53,7 +53,7 @@ function renderProductList(productList) {
     let html = "";
     const maxProducts = 18;
 
-    if (productList.length === 0) {
+    if (productList.length == 0) {
         html = "";
     } else {
         const productsToRender = productList.slice(0, maxProducts);
