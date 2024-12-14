@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/css-page/checkout.css">
+</head>
+ 
+<body>
+   <!---Checkout page--->
+   <div class="checkout_wrapper">
+   <!---phần khung logo--->     
+        <div class="logo_container">
+            <div class="main_logo">
+                <a href="../index.html" class="woodmart_logo" rel="home" aria-label="main logo">
+                <img src="https://woodmart.xtemos.com/accessories/wp-content/themes/woodmart/images/wood-logo-dark.svg" width="370" height="60" alt="WoodMart Accessories" style="max-width: 180px;">	</a>
+            </div>
+        </div>
+        <!--phần container chính-->
+        <div class="khung_main">
+            <div class="main_container">
+                <!--header box-->
+                <div class="header_box">
+                    <div class="returning_login">
+                        Returning customer? <a href="#" id="showloginform" class="showlogin" style="color: #2E6BC6;">Click here to login</a>	
+                        <div class="login_info_form" id="formcontainer2">
+                            <div class="login_instruction">
+                                <p style="color: #777777; text-align: left; font: 14px Arial Helvetica sans-serif; line-height: 1.6; word-spacing:2px; margin-bottom: 20px; margin-top: 0px;">If you have shopped with us before, please enter your details below. If you are a new customer, please proceed to the Billing section.</p>
+                            </div>
+                            <div class="main_info">
+                                <div class="username-email_info">
+                                    <label for="username-email" style="font-weight: 400;">Username or email address&nbsp;<span class="required">*</span></label>
+                                    <input type="text" class="username-email_input">
+                                </div>                            
+                                <div class="password_info">
+                                    <label for="password" style="font-weight: 400;">Password&nbsp;<span class="required">*</span></label>
+                                    <input type="text" class="password_input">
+                                </div>
+                                <div class="Login_button">
+                                    <button type="submit" class="button-login" name="Log in1" value="Log in1">LOG IN</button>                            
+                                </div>
+                                <div class="login_info_aside">
+                                    <label class="remember_label">
+                                        <span style="margin-top: 5px;"><input class="input-checkbox" name="rememberme" type="checkbox" value="forever" title="Remember me"></span> <span >Remember me</span>
+                                    </label>
+                                    <a href="https://woodmart.xtemos.com/accessories/my-account/lost-password/" class="lost_password">Lost your password?</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="coupon_code">
+                        Have a coupon? <a href="#"  id="showFormLink" class="showcoupon">Click here to enter your code</a>
+                        <div class="form_container" id="formContainer">
+                            <form>
+                              <p style="color: #777777; text-align: left; margin-left: 10px; font: 15px Arial Helvetica sans-serif;">If you have a coupon code, please apply it below.</p>
+                              <div class="enter_code_area">
+                                <input style="height: 35px; width: 60%; outline: none; text-decoration: none; border-color: rgba(0, 0, 0, 0.1); border-radius: 5px; color: #777777; text-indent: 13px;margin-left: 10px;" placeholder="Coupon code">
+                                <button style="font-weight: 600; margin-right: 10px; font: 13px Arial Helvetica sans-serif; font-weight: 700;" type="submit" class="COUPON-CODE_button">APPLY COUPON</button>
+                              </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="progressbar_box">
+                        <div class="progress_count">
+                            <span style="color: #777777;">Add</span> <span class="soluong"><span class="symbol">$</span>751.00</span> <span style="color: #777777;">to cart and get free shipping!</span>			
+                        </div>
+                        <div class="progressbar_container">
+                            <div class="progressbar" style="width: 16%"></div>
+                        </div>
+                    </div>
+                </div>
+             <!---khung phần còn lại 1_2_3--->
+                <!--Billing Detail-->
+                <div class="container_123" id="container_123">
+                    <div class="Billing-title_container">
+                        <div class="Billing_title">1.</div>
+                        <div class="Billing-title-content_box">
+				            <div class="Billing-title_content">Billing details</div>
+					    </div>
+                    </div>
+                    <!--Billing info-->    
+                    <div class="Billing_info">
+                        <div class="first-name_info">
+                            <label for="first-name">First name&nbsp;<span class="required">*</span></label>
+                            <input type="text" class="first-name_input">
+                        </div>
+                        <div class="last-name_info">
+                            <label for="last-name">Last name&nbsp;<span class="required">*</span></label>
+                            <input type="text" class="last-name_input">
+                        </div>
+                        <div class="phone_info">
+                            <label for="phone">Phone&nbsp;<span class="required">*</span></label>
+                            <input type="text" class="phone_input">
+                        </div>
+                        <div class="emai-address_info">
+                            <label for="email-address">Email address&nbsp;<span class="required">*</span></label>
+                            <input type="text" class="email-address_input">
+                        </div>
+                        <div class="country-region_info">
+                            <label for="country-region">Country / Region&nbsp;<span class="required">*</span></label>
+                            <input type="text" class="country-region_input" placeholder="Vietnam">
+                        </div>
+                        <div class="town-city_info">
+                            <label for="town-city">Town / City&nbsp;<span class="required">*</span></label>
+                            <input type="text" class="town-city_input">
+                        </div>
+                        <div class="street-address_info">
+                            <label for="street-address">Streer address&nbsp;<span class="required">*</span></label>
+                            <input type="text" class="street-address_input" placeholder="House number and street name">
+                        </div>
+                        <div class="postcode-zip_info">
+                            <label for="postcode-zip">Postcode / ZIP (optional)&nbsp;</label>
+                            <input type="text" class="postcode-zip_input" >
+                        </div>  
+                    </div>
+                    <!---Account--->
+                    <div class="Account">
+                        <label class="create_an_account">
+                            <input class="account_input" name="Create an account?" type="checkbox" value="forever" title="" aria-label="Create an account?"> 
+                            <span style="font-weight: 700">Create an account?</span>
+                        </label>
+                    </div>
+                    <!--ship to a different addresss!-->
+                    <div class="transition_address">
+                        <div class="address_area">
+                            <label class=" ship-to-a-different-address">
+                                <input class="address_input" name="Ship to a different address" type="checkbox" value="forever" title="" aria-label="Ship to a different address"> 
+                                <span style="font-weight: 700">Ship to a different address?</span>
+                            </label>
+                        </div>
+                        <div class="oder-notes_info">
+                           <div class="oder-notes">Oder notes (optional)</div>
+                           <textarea name="order_comments" class="oder_input " id="order_comments" placeholder="Notes about your order, e.g. special notes for delivery." rows="2" cols="5" style=" font: 13px Arial, sans-serif; "></textarea> 
+                        </div>
+                    </div>
+                    <!---2.Check your order--->      
+                    <div class="check-order-title_container">
+                        <div class="Check-order_title">2.</div>
+                        <div class="check-order-title-content_box">
+                            <div class="check-order-title_content">Check your order</div>
+                        </div>
+                    </div>
+                    <!--Product and Subtotal-->
+                    <div class="Order_info">
+                        
+                    <div class="product_subtotal">
+                        <div class="product">PRODUCT</div>
+                        <div class="Subtotal">SUBTOTAL</div>
+                    </div>
+                    <div class="product_information">
+                        <div class="clear_button">
+                            <div class="X">
+                                <a href=""><i class="fa-regular fa-x"></i></a>
+                            </div>
+                        </div>
+                        <img width="65" height="75" src="https://woodmart.xtemos.com/accessories/wp-content/uploads/sites/7/2022/09/blue-case-back-430x491.jpg" class="phone_image" alt="" decoding="async" loading="lazy">
+                        <div class="name_quantity_price">
+                            <div class="product-detail_quantity">
+                                <div class="iphone12-product_detail">
+                                    <div class="iPhone-12-Pro-Moment-Case-Blue">iPhone 12 Pro Moment Case – Blue</div>
+                                        <div class="product_quantity">
+                                            <input type="button" value="-" class="decrease_button">
+                                            <input type="text" id="quantity" class="input_quantity" value="1">
+                                            <input type="button" value="+" class="increase_button">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="price1">
+                                    <bdi><span class="price1_symbol">$</span>149.00</bdi>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="subtotal_price">
+                            <div class="subtotal">Subtotal</div>
+                            <div class="price2"><bdi> <span class="price2_symbol">$</span>149.00</bdi></div>
+                        </div>
+                        <div class="Shipping_info">
+                            <div class="shipping">Shipping</div>
+                            <ul class="shipping-methods">
+                                <li><label for="shipping_method1">Flat rate</label><input type="radio" name="shipping_method1" data-index="0" id="shipping_method-flat_rate" value="flat_rate" class="shipping_method1" checked="checked"></li>
+                                <li><label for="shipping_method2">Free shipping</label><input type="radio" name="shipping_method2" data-index="0" id="shipping_method-free_shipping" value="free_shipping" class="shipping_method2"></li>
+                                <li><label for="shipping_method3">Local pickup</label><input type="radio" name="shipping_method3" data-index="0" id="shipping_method-local_pickup" value="local_pickup" class="shipping_method3"></li>
+                            </ul>
+                        </div>
+                        <div class="total_price">
+                            <div class="total">Total</div>
+                            <div class="price3"><bdi> <span class="price3_symbol" style="color:rgb(46, 107, 198);">$</span>149.00</bdi></div>
+                        </div>
+                    </div>
+                    <!--3Payment Infomation-->
+                    <div class="payment-info_container">
+                        <div class="payment-info_title">3.</div>
+                        <div class="payment-info-title-content_box">
+                            <div class="payment-info-title_content">Payment Information</div>
+                        </div>
+                    </div>
+                    <div class="payment-info_box">
+                        <ul class="list_instruction_box">
+                            <li style="text-align: left; height: 145px;"><input type="radio" name="Direct bank transfer " style="margin: 0px 5px 0px 0px;" data-index="0" id="Direct bank transfer" value="Direct bank transfer" class="Direct bank transfer" checked="checked"><label for="Direct bank transfer" class="Direct_option">Direct bank transfer</label>
+                                <p style="height: 60px; margin-top: 15px; padding: 15px; color: #00000080; line-height: 1.3; background-color: rgb(249, 249, 249); border-radius: 8px;" >
+                                    Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+                            </li>
+                            <li style="text-align: left; margin-bottom: 20px;"><input type="radio" name="Check payments" style="margin: 0px 5px 0px 0px ;" data-index="0" id="Check payments" value="Check payments" class="Check payments"><label for="shipping_method2" class="check-payment_option">Check payments</label></li>
+                            <li style="text-align: left; margin-bottom: 20px;"><input type="radio" name="Cash on delivery" style="margin: 0px 5px 0px 0px ;" data-index="0" id="Cash on delivery" value="Cash on delivery" class="Cash on delivery"><label for="Cash on delivery" class="Cash-on-delivery_option">Cash on delivery</label></li>
+                            <li style="text-align: left;"><input type="radio" name="Credit Card" style="margin: 0px 5px 0px 0px ;" data-index="0" id="Credit Card" value="Credit Card" class="Credit Card"><label for="Credit Card" class="Credit-Cardoption">Credit Card (Stripe)</label></li>    
+                        </ul>
+                        <div class="instruction2_box">
+                            <p class="instruction2">Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="https://woodmart.xtemos.com/accessories/privacy-policy/" class="policy_link" target="_blank">privacy policy</a>.</p>
+                        </div>
+                        <div class="PLACE-ORDER_button">
+                            <button type="submit" class="P_button" name="order" value="place order">PLACE ORDER</button>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Scroll to top -->
+    <a class="go-top-btn btn-show" href="#"><i class="fa-solid fa-angle-up"></i></a>
+    <!-- My Javascript -->
+    <script src="../js/js-page/checkout.js"></script>
+    <script src="../js/js-page/page.js"></script>
+</body>
+</html>
