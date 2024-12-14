@@ -120,8 +120,7 @@ function renderProductList() {
     let html = "";
 
     productList.forEach(product => {
-        html += `
-        <div class="col-md-3">
+        html += `<div class="col-md-3">
             <div class="product-item">
                 <div class="product-hover">
                     ${product.isHot ? '<div class="label"><a href="" class="hot">Hot</a></div>' : ''}
